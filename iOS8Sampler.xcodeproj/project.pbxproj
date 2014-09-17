@@ -15,6 +15,7 @@
 		8A308E3119BDDD69007C7315 /* PedometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2F19BDDD69007C7315 /* PedometerViewController.xib */; };
 		8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
 		8A308E3D19BDEFC2007C7315 /* AVKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */; };
+		8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A40F6B719CA528A005F34A3 /* Metal.framework */; };
 		8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
 		8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
 		8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
@@ -214,6 +215,7 @@
 		8A308E3919BDEFC2007C7315 /* AVKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVKitViewController.h; sourceTree = "<group>"; };
 		8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVKitViewController.m; sourceTree = "<group>"; };
 		8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVKitViewController.xib; sourceTree = "<group>"; };
+		8A40F6B719CA528A005F34A3 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnamorphicStretch.cikernel; sourceTree = "<group>"; };
 		8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MirrorX.cikernel; sourceTree = "<group>"; };
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */,
 				8A8D0CAF19C9A161009E3448 /* HealthKit.framework in Frameworks */,
 				8A8D0CAD19C9A129009E3448 /* HomeKit.framework in Frameworks */,
 			);
@@ -437,6 +440,7 @@
 		8A8D0CB019C9A175009E3448 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A40F6B719CA528A005F34A3 /* Metal.framework */,
 				8A8D0CAE19C9A161009E3448 /* HealthKit.framework */,
 				8A8D0CAB19C9A122009E3448 /* HomeKit.framework */,
 			);
