@@ -1,0 +1,4 @@
+kernel vec4 sourceOver( __sample src , __sample dest )
+{
+    return src + (1.0-src.a)*dest;
+}

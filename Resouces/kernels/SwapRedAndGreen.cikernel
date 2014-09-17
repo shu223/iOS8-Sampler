@@ -1,0 +1,2 @@
+kernel vec4 swapRedAndGreenAmount ( __sample s, float amount )
+                  { return mix(s.rgba, s.grba, amount); }

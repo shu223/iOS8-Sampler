@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  iOS8Sampler
+//
+//  Created by Shuichi Tsutsumi on 2014/09/08.
+//  Copyright (c) 2014 Shuichi Tsutsumi. All rights reserved.
+//
+
+#ifndef iOS8Sampler_PrefixHeader_pch
+#define iOS8Sampler_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#define COMMON_BLUE_COLOR [UIColor colorWithRed:51./255. green:153./255. blue:204./255. alpha:1.]

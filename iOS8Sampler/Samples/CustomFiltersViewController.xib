@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomFiltersViewController">
+            <connections>
+                <outlet property="imageView" destination="YUG-3Z-g6V" id="DZ9-n7-2DC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="wwdc" translatesAutoresizingMaskIntoConstraints="NO" id="YUG-3Z-g6V">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Osj-2l-aRF">
+                    <rect key="frame" x="0.0" y="406" width="320" height="162"/>
+                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="NkB-eb-WG4"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Mgy-Dg-fCI"/>
+                        <outlet property="delegate" destination="-1" id="cIr-Vj-6Q8"/>
+                    </connections>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Osj-2l-aRF" secondAttribute="bottom" id="XKV-8h-t9E"/>
+                <constraint firstAttribute="trailing" secondItem="Osj-2l-aRF" secondAttribute="trailing" id="hl8-GF-ARS"/>
+                <constraint firstItem="Osj-2l-aRF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wSv-Qr-DBN"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                <size key="portraitSize" width="320" height="568"/>
+                <size key="landscapeSize" width="568" height="320"/>
+            </simulatedScreenMetrics>
+        </view>
+    </objects>
+    <resources>
+        <image name="wwdc" width="320" height="568"/>
+    </resources>
+</document>

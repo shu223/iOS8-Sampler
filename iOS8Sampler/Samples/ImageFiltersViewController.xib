@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageFiltersViewController">
+            <connections>
+                <outlet property="imageView" destination="C4O-A5-rcl" id="MO5-f8-st5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="wwdc" translatesAutoresizingMaskIntoConstraints="NO" id="C4O-A5-rcl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u2f-nB-thL">
+                    <rect key="frame" x="0.0" y="406" width="320" height="162"/>
+                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="4eb-bz-Skz"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="162" id="nln-Aa-fV2"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="nln-Aa-fV2"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="uh6-FW-NVi"/>
+                        <outlet property="delegate" destination="-1" id="FU8-jO-3gF"/>
+                    </connections>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="C4O-A5-rcl" secondAttribute="bottom" id="2wp-q9-4PO"/>
+                <constraint firstItem="C4O-A5-rcl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8dx-JR-bm6"/>
+                <constraint firstItem="C4O-A5-rcl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A3Q-GD-5P2"/>
+                <constraint firstAttribute="bottom" secondItem="u2f-nB-thL" secondAttribute="bottom" id="D4V-4j-Ugc"/>
+                <constraint firstItem="u2f-nB-thL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SfI-ej-Brj"/>
+                <constraint firstAttribute="trailing" secondItem="C4O-A5-rcl" secondAttribute="trailing" id="VqO-8L-FLr"/>
+                <constraint firstAttribute="trailing" secondItem="u2f-nB-thL" secondAttribute="trailing" id="wIG-fK-EAZ"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                <size key="portraitSize" width="320" height="568"/>
+                <size key="landscapeSize" width="568" height="320"/>
+            </simulatedScreenMetrics>
+        </view>
+    </objects>
+    <resources>
+        <image name="wwdc" width="320" height="568"/>
+    </resources>
+</document>

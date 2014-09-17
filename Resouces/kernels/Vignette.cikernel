@@ -1,0 +1,8 @@
+kernel vec4 vignette ( __sample s ,vec2 centerOffset ,float radius )
+{
+    vec2 vecFromCenter = destCoord () - centerOffset;
+    float distance = length ( vecFromCenter );
+    float darken = 1.0 - ( distance / radius ) ;
+
+    return vec4 ( s.rgb * darken, s.a );
+}

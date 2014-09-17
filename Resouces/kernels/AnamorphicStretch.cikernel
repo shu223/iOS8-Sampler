@@ -1,0 +1,9 @@
+kernel vec2 strech (float center, float k)
+{
+    vec2 p = destCoord();
+    p.x -= center;
+    p.x = p.x / (1.0 + abs(p.x / k));
+    p.x += center;
+
+    return p;
+}
