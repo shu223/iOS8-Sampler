@@ -3,9 +3,9 @@ iOS8-Sampler
 
 Code examples for the new functions of iOS 8.
 
-![](http://f.cl.ly/items/3C1k1H2l3Y0p041P071d/ogp_.jpg)
+![](http://f.cl.ly/items/0W2i0E151s0B3S3x3E3W/ogp_.jpg)
 
-**Coming soon.**
+The code will be pushed on September 17.
 
 
 ##Author
