@@ -115,7 +115,7 @@ Schedule a local notification which has custom actions using UIUserNotificationS
 
 ###Pedometer
 
-Counting steps demo using CMPedometer. It works only on devices which have M7 motion co-processor.
+Counting steps demo using CMPedometer. It works only on devices which have M7 or M8 motion co-processor.
 
 <img src="ResourcesForREADME/pedometer.jpg" width="200">
 
