@@ -39,13 +39,13 @@
                      kItemKeyClassPrefix: @"ImageFilters",
                      },
 
-                   // CustomFilters
+                   // Custom Filters
                    @{kItemKeyTitle: @"CustomFilters",
                      kItemKeyDescription: @"Custom CIFilter examples using CIKernel.",
                      kItemKeyClassPrefix: @"CustomFilters",
                      },
 
-                   // Metal Renderer
+                   // Metal Basic
                    @{kItemKeyTitle: @"Metal Basic",
                      kItemKeyDescription: @"Render a set of cubes using Metal. Based on Apple's \"MetalBasic3D\" sample.",
                      kItemKeyClassPrefix: @"MetalBasic",
