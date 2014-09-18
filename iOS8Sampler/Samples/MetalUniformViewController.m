@@ -26,8 +26,9 @@
     NSTimeInterval timeSinceLastDraw;
     
     BOOL gameLoopPaused;
+    
+    CADisplayLink *_timer;
 }
-@property (nonatomic, assign) CADisplayLink *timer;
 @property (nonatomic, strong) MetalUniformStreamRenderer *renderer;
 #endif
 @end
@@ -113,11 +114,11 @@
 // used to fire off the main game loop
 - (void)dispatchGameLoop {
     
-    self.timer = [[UIScreen mainScreen] displayLinkWithTarget:self
-                                                     selector:@selector(gameloop)];
-    self.timer.frameInterval = 1;
-    [self.timer addToRunLoop:[NSRunLoop mainRunLoop]
-                     forMode:NSDefaultRunLoopMode];
+    _timer = [[UIScreen mainScreen] displayLinkWithTarget:self
+                                                 selector:@selector(gameloop)];
+    _timer.frameInterval = 1;
+    [_timer addToRunLoop:[NSRunLoop mainRunLoop]
+                 forMode:NSDefaultRunLoopMode];
 }
 
 // use invalidates the main game loop. when the app is set to terminate
@@ -152,8 +153,8 @@
 
 - (void)stopGameLoop {
     
-    if (self.timer) {
-        [self.timer invalidate];
+    if (_timer) {
+        [_timer invalidate];
     }
 }
 
@@ -164,12 +165,12 @@
         return;
     }
     
-    if (self.timer) {
+    if (_timer) {
         
         if (pause == YES) {
             
             gameLoopPaused = pause;
-            self.timer.paused   = YES;
+            _timer.paused   = YES;
             
             // ask the view to release textures until its resumed
             [(AAPLView *)self.view releaseTextures];
@@ -177,7 +178,7 @@
         else {
             
             gameLoopPaused = pause;
-            self.timer.paused   = NO;
+            _timer.paused   = NO;
         }
     }
 }
