@@ -173,25 +173,3 @@ Shuichi Tsutsumi
 ##Special Thanks
 
 Icons and LaunchImages are **designed by [Okazu](https://www.facebook.com/pashimo)**
-
-
-##Donation for iOS8-Sampler
-
-If you like this project, or want to support the development, feel free to Donate.
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BHM7YTWHK7ARS">
-<table>
-<tr><td><input type="hidden" name="on0" value="DonationType">DonationType</td></tr><tr><td><select name="os0">
-	<option value="Donation1">Donation1 $1.00 USD</option>
-	<option value="Donation2">Donation2 $2.00 USD</option>
-	<option value="Donation3">Donation3 $5.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
-<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-Thanks to all contributors!
