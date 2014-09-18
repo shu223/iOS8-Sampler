@@ -18,7 +18,9 @@ JUST BUILD basically, however please note below:
 - Use "iOS8Sampler" Scheme for DEVICES.
 - Use "iOS8SamplerSimulator" Scheme for SIMULATORS
 
-(This is because Metal can't be compiled for Simulators.)
+This is because Metal can't be compiled for Simulators. When you have build error, try to delete the Derived Data: 
+
+`/Users/shuichi/Library/Developer/Xcode/DerivedData/iOS8Sampler-{xxxxxxxxxx}`
 
 
 ###Provisioning Profile

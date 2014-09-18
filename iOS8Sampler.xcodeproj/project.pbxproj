@@ -221,7 +221,7 @@
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
 		8A8D0BEF19C99A8A009E3448 /* SwapRedAndGreen.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwapRedAndGreen.cikernel; sourceTree = "<group>"; };
 		8A8D0BF019C99A8A009E3448 /* Vignette.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vignette.cikernel; sourceTree = "<group>"; };
-		8A8D0CA919C9A034009E3448 /* iOS8Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8Sampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SamplerSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8D0CAB19C9A122009E3448 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		8A8D0CAE19C9A161009E3448 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		8A8D0CB219C9A5BA009E3448 /* MetalUniformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalUniformViewController.h; sourceTree = "<group>"; };
@@ -622,7 +622,7 @@
 			children = (
 				8AA4B9F119A175F4006BC800 /* iOS8Sampler.app */,
 				8AA4BA0A19A175F5006BC800 /* iOS8SamplerTests.xctest */,
-				8A8D0CA919C9A034009E3448 /* iOS8Sampler.app */,
+				8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -911,7 +911,7 @@
 			);
 			name = iOS8SamplerSimulator;
 			productName = iOS8Sampler;
-			productReference = 8A8D0CA919C9A034009E3448 /* iOS8Sampler.app */;
+			productReference = 8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8AA4B9F019A175F4006BC800 /* iOS8Sampler */ = {
@@ -1256,7 +1256,7 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = iOS8Sampler;
+				PRODUCT_NAME = iOS8SamplerSimulator;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1272,7 +1272,7 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = iOS8Sampler;
+				PRODUCT_NAME = iOS8SamplerSimulator;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 			};
 			name = Release;
