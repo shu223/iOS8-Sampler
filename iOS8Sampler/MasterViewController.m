@@ -86,6 +86,12 @@
                      kItemKeyDescription: @"Example for UIBlurEffect and UIVibrancyEffect.",
                      kItemKeyClassPrefix: @"VisualEffects",
                      },
+                   
+                   // Ruby Annotation
+                   @{kItemKeyTitle: @"Ruby Annotation",
+                     kItemKeyDescription: @"Display the pronunciation of characters using CTRubyAnnotationRef.",
+                     kItemKeyClassPrefix: @"RubyAnnotation",
+                     },
 
                    // WebKit
                    @{kItemKeyTitle: @"WebKit",
@@ -118,7 +124,7 @@
                      },
 
                    // Histogram
-                   @{kItemKeyTitle: @"Generate Histogram",
+                   @{kItemKeyTitle: @"Histogram",
                      kItemKeyDescription: @"Generate a histogram from an image using the filters CIAreaHistogram and CIHistogramDisplayFilter.",
                      kItemKeyClassPrefix: @"Histogram",
                      },
@@ -128,7 +134,7 @@
                      kItemKeyDescription: @"Generate Aztec Code and 128 Barcord.",
                      kItemKeyClassPrefix: @"CodeGenerator",
                      },
-                   
+
                    // New Fonts
                    @{kItemKeyTitle: @"New Fonts",
                      kItemKeyDescription: @"Gallery of new fonts.",

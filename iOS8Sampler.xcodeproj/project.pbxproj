@@ -173,6 +173,12 @@
 		8AB959AE19A38478008EE97F /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB959AC19A38478008EE97F /* AlertViewController.xib */; };
 		8AB959B219A38D83008EE97F /* UIAlertController+TTMAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959B119A38D83008EE97F /* UIAlertController+TTMAppearance.m */; };
 		8AB959E819A398F4008EE97F /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959E719A398F4008EE97F /* AlertViewController.m */; };
+		8ABBB65C19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
+		8ABBB65D19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
+		8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
+		8ABBB65F19CBA7D400F44D89 /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
+		8AD104BF19CB99BA00C30A3D /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
+		8AD104C019CB99BA00C30A3D /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
 		8AE7B7B519A1981E00E0C6EB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */; };
 		8AE7B7B619A1981E00E0C6EB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B419A1981E00E0C6EB /* SVProgressHUD.m */; };
 		8AE7B7C519A1999600E0C6EB /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7BE19A1999600E0C6EB /* HistogramViewController.m */; };
@@ -330,6 +336,11 @@
 		8AB959B619A38FB4008EE97F /* iOS8Sampler-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS8Sampler-Bridging-Header.h"; sourceTree = "<group>"; };
 		8AB959E619A398F4008EE97F /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		8AB959E719A398F4008EE97F /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		8ABBB65A19CBA48800F44D89 /* RubyAnnotationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyAnnotationLabel.h; sourceTree = "<group>"; };
+		8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubyAnnotationLabel.m; sourceTree = "<group>"; };
+		8AD104BC19CB99BA00C30A3D /* RubyAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyAnnotationViewController.h; sourceTree = "<group>"; };
+		8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubyAnnotationViewController.m; sourceTree = "<group>"; };
+		8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubyAnnotationViewController.xib; sourceTree = "<group>"; };
 		8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		8AE7B7B319A1981E00E0C6EB /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		8AE7B7B419A1981E00E0C6EB /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
@@ -765,6 +776,18 @@
 			name = UIAlertController;
 			sourceTree = "<group>";
 		};
+		8AD104C119CB99BF00C30A3D /* RubyAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				8AD104BC19CB99BA00C30A3D /* RubyAnnotationViewController.h */,
+				8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */,
+				8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */,
+				8ABBB65A19CBA48800F44D89 /* RubyAnnotationLabel.h */,
+				8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */,
+			);
+			name = RubyAnnotation;
+			sourceTree = "<group>";
+		};
 		8AE7B7B119A1981E00E0C6EB /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -799,6 +822,7 @@
 				8A8D0CB719C9A5C0009E3448 /* MetalUniformStream */,
 				8A9540F419A1C9EF008C6F07 /* AccordionFoldTransition */,
 				8A8D0CF619C9CA49009E3448 /* SceneKit */,
+				8AD104C119CB99BF00C30A3D /* RubyAnnotation */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -1043,6 +1067,7 @@
 				8A8D0C9E19C9A034009E3448 /* bgm8.wav in Resources */,
 				8A8D0C9F19C9A034009E3448 /* SwapRedAndGreen.cikernel in Resources */,
 				8A8D0CA019C9A034009E3448 /* SVProgressHUD.bundle in Resources */,
+				8ABBB65F19CBA7D400F44D89 /* RubyAnnotationViewController.xib in Resources */,
 				8A8D0CA119C9A034009E3448 /* mh2_09.wav in Resources */,
 				8A8D0CA219C9A034009E3448 /* MetalBasicViewController.xib in Resources */,
 				8A8D0CA319C9A034009E3448 /* VisualEffectsViewController.xib in Resources */,
@@ -1092,6 +1117,7 @@
 				8A9357A919B2F2ED00290399 /* bgm8.wav in Resources */,
 				8A8D0BF419C99A8A009E3448 /* SwapRedAndGreen.cikernel in Resources */,
 				8AE7B7B519A1981E00E0C6EB /* SVProgressHUD.bundle in Resources */,
+				8AD104C019CB99BA00C30A3D /* RubyAnnotationViewController.xib in Resources */,
 				8A9357AE19B2F2ED00290399 /* mh2_09.wav in Resources */,
 				8A9BA65D19C96F790015DEFB /* MetalBasicViewController.xib in Resources */,
 				8AAC233F19A230E300218191 /* VisualEffectsViewController.xib in Resources */,
@@ -1147,12 +1173,14 @@
 				8A8D0C7319C9A034009E3448 /* PopoverDetailViewController.m in Sources */,
 				8A8D0C7419C9A034009E3448 /* VisualEffectsViewController.m in Sources */,
 				8A8D0CEA19C9B1CF009E3448 /* AAPLTransforms.mm in Sources */,
+				8ABBB65D19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */,
 				8A8D0C7519C9A034009E3448 /* TTMAudioUnitEffectHelper.m in Sources */,
 				8A8D0C7619C9A034009E3448 /* SourceOver.m in Sources */,
 				8A8D0C7719C9A034009E3448 /* MetalBasicViewController.m in Sources */,
 				8A8D0C7819C9A034009E3448 /* CodeGeneratorViewController.m in Sources */,
 				8A8D0CF319C9CA45009E3448 /* SceneKitViewController.m in Sources */,
 				8A8D0C7919C9A034009E3448 /* UIAlertController+TTMAppearance.m in Sources */,
+				8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */,
 				8A8D0C7A19C9A034009E3448 /* PedometerViewController.m in Sources */,
 				8A8D0C7B19C9A034009E3448 /* AudioEngineViewController.m in Sources */,
 				8A8D0C7C19C9A034009E3448 /* AlertViewController.m in Sources */,
@@ -1173,6 +1201,7 @@
 				8A8D244419BCD3020005B633 /* TTMHealthKitHelper.m in Sources */,
 				8A8D0CD119C9B163009E3448 /* MetalUniformStreamRenderer.mm in Sources */,
 				8AE7B7B619A1981E00E0C6EB /* SVProgressHUD.m in Sources */,
+				8ABBB65C19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */,
 				8A8D0D0419C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */,
 				8A8D0CE119C9B1CF009E3448 /* AAPLCube.mm in Sources */,
 				8AE7B7C719A1999600E0C6EB /* ImageFiltersViewController.m in Sources */,
@@ -1189,6 +1218,7 @@
 				8A308E2A19BDD98A007C7315 /* PhotosViewController.m in Sources */,
 				8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */,
 				8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */,
+				8AD104BF19CB99BA00C30A3D /* RubyAnnotationViewController.m in Sources */,
 				8A8D0CBB19C9A91E009E3448 /* TTMMetalRenderer.mm in Sources */,
 				8A95411119A20CF8008C6F07 /* AnamorphicStretch.m in Sources */,
 				8A8D244C19BCFC7B0005B633 /* FontsViewController.m in Sources */,

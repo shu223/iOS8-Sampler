@@ -94,6 +94,13 @@ Example for UIBlurEffect and UIVibrancyEffect.
 <img src="ResourcesForREADME/visualeffect.jpg" width="200">
 
 
+###Ruby Annotation
+
+Display the pronunciation of characters using CTRubyAnnotationRef.
+
+<img src="ResourcesForREADME/ruby.jpg" width="200">
+
+
 ###WebKit
 
 Browsing example using WKWebView.
