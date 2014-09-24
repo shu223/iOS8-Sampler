@@ -111,9 +111,15 @@
                      kItemKeyClassPrefix: @"UserNotification",
                      },
 
+                   // Altimeter
+                   @{kItemKeyTitle: @"Altimeter",
+                     kItemKeyDescription: @"Get relative altitude using CMAltimeter. It works only on devices which have M8 motion co-processor.",
+                     kItemKeyClassPrefix: @"Altimeter",
+                     },
+
                    // Pedometer
                    @{kItemKeyTitle: @"Pedometer",
-                     kItemKeyDescription: @"Counting steps demo using CMPedometer. It works only on devices which have M7 motion co-processor.",
+                     kItemKeyDescription: @"Counting steps demo using CMPedometer. It works only on devices which have M7 or M8 motion co-processor.",
                      kItemKeyClassPrefix: @"Pedometer",
                      },
 

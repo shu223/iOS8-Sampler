@@ -122,6 +122,13 @@ Schedule a local notification which has custom actions using UIUserNotificationS
 <img src="ResourcesForREADME/notification.jpg" height="355">
 
 
+###Altimeter
+
+Get relative altitude using CMAltimeter. It works only on devices which have M8 motion co-processor.
+
+<img src="ResourcesForREADME/altimeter.jpg" width="200">
+
+
 ###Pedometer
 
 Counting steps demo using CMPedometer. It works only on devices which have M7 or M8 motion co-processor.
