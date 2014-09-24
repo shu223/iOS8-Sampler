@@ -22,8 +22,12 @@
                         <constraint firstAttribute="width" constant="200" id="Lfu-0H-5gS"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sg-gU-Gay" customClass="CommonButton">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sg-gU-Gay" customClass="CommonButton">
                     <rect key="frame" x="12" y="32" width="68" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mw9-Cm-rDI"/>
+                        <constraint firstAttribute="width" constant="68" id="xS4-Ew-Zs3"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <state key="normal" title="CLOSE">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,6 +39,8 @@
             </subviews>
             <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstItem="8sg-gU-Gay" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="32" id="BTS-Xy-djx"/>
+                <constraint firstItem="8sg-gU-Gay" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="dSG-uS-MSi"/>
                 <constraint firstAttribute="centerY" secondItem="Uoj-qA-Qf6" secondAttribute="centerY" id="hQn-aD-VQS"/>
                 <constraint firstAttribute="centerX" secondItem="Uoj-qA-Qf6" secondAttribute="centerX" id="vFf-qc-5qg"/>
             </constraints>

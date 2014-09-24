@@ -130,6 +130,11 @@
     [self.timer fire];
 }
 
+- (void)viewWillLayoutSubviews {
+
+    self.glkView.frame = self.view.bounds;
+}
+
 - (void)viewWillDisappear:(BOOL)animated {
 
     [super viewWillDisappear:animated];

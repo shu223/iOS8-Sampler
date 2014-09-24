@@ -47,6 +47,10 @@
     [self update:nil];
 }
 
+- (void)viewWillLayoutSubviews {
+    self.webView.frame = self.view.bounds;
+}
+
 - (void)update:(CADisplayLink *)link {
     
     if ([self.webView isLoading]) {

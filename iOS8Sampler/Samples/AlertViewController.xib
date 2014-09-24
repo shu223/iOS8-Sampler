@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertViewController">
@@ -15,8 +15,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8O-wk-4HF" customClass="CommonButton">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8O-wk-4HF" customClass="CommonButton">
                     <rect key="frame" x="40" y="259" width="240" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="eIH-4e-Cxf"/>
+                        <constraint firstAttribute="height" constant="50" id="vWU-LT-QaZ"/>
+                    </constraints>
                     <state key="normal" title="ALERT">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -24,8 +28,12 @@
                         <action selector="alertBtnTapped:" destination="-1" eventType="touchUpInside" id="gPE-b6-Aqb"/>
                     </connections>
                 </button>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7mi-r9-xp0">
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7mi-r9-xp0">
                     <rect key="frame" x="72" y="139" width="177" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="177" id="0Jj-xu-7BX"/>
+                        <constraint firstAttribute="height" constant="28" id="OaD-7x-w26"/>
+                    </constraints>
                     <segments>
                         <segment title="Alert"/>
                         <segment title="ActionSheet"/>
@@ -34,12 +42,15 @@
                 </segmentedControl>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="u8O-wk-4HF" secondAttribute="centerX" id="B4f-Re-nON"/>
+                <constraint firstAttribute="centerX" secondItem="7mi-r9-xp0" secondAttribute="centerX" id="RRc-Hm-eOh"/>
+                <constraint firstAttribute="centerY" secondItem="u8O-wk-4HF" secondAttribute="centerY" id="XgB-ui-Bg4"/>
+                <constraint firstItem="u8O-wk-4HF" firstAttribute="top" secondItem="7mi-r9-xp0" secondAttribute="bottom" constant="92" id="bbT-2R-uHe"/>
+            </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
-                <size key="portraitSize" width="320" height="568"/>
-                <size key="landscapeSize" width="568" height="320"/>
-            </simulatedScreenMetrics>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
 </document>

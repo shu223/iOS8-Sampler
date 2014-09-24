@@ -16,6 +16,10 @@
 		8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
 		8A308E3D19BDEFC2007C7315 /* AVKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */; };
 		8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A40F6B719CA528A005F34A3 /* Metal.framework */; };
+		8A4FB83919D2442F00375981 /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
+		8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
+		8A4FB83B19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
+		8A4FB83C19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
 		8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
 		8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
 		8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
@@ -222,6 +226,9 @@
 		8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVKitViewController.m; sourceTree = "<group>"; };
 		8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVKitViewController.xib; sourceTree = "<group>"; };
 		8A40F6B719CA528A005F34A3 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		8A4FB83619D2442F00375981 /* AltimeterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltimeterViewController.h; sourceTree = "<group>"; };
+		8A4FB83719D2442F00375981 /* AltimeterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltimeterViewController.m; sourceTree = "<group>"; };
+		8A4FB83819D2442F00375981 /* AltimeterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AltimeterViewController.xib; sourceTree = "<group>"; };
 		8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnamorphicStretch.cikernel; sourceTree = "<group>"; };
 		8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MirrorX.cikernel; sourceTree = "<group>"; };
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
@@ -434,6 +441,16 @@
 				8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */,
 			);
 			name = AVKit;
+			sourceTree = "<group>";
+		};
+		8A4FB83D19D2443600375981 /* Altimeter */ = {
+			isa = PBXGroup;
+			children = (
+				8A4FB83619D2442F00375981 /* AltimeterViewController.h */,
+				8A4FB83719D2442F00375981 /* AltimeterViewController.m */,
+				8A4FB83819D2442F00375981 /* AltimeterViewController.xib */,
+			);
+			name = Altimeter;
 			sourceTree = "<group>";
 		};
 		8A8D0BEB19C99A8A009E3448 /* kernels */ = {
@@ -823,6 +840,7 @@
 				8A9540F419A1C9EF008C6F07 /* AccordionFoldTransition */,
 				8A8D0CF619C9CA49009E3448 /* SceneKit */,
 				8AD104C119CB99BF00C30A3D /* RubyAnnotation */,
+				8A4FB83D19D2443600375981 /* Altimeter */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -1032,6 +1050,7 @@
 			files = (
 				8A8D0CBD19C9ADB3009E3448 /* MetalUniformViewController.xib in Resources */,
 				8A8D0C7F19C9A034009E3448 /* Vignette.cikernel in Resources */,
+				8A4FB83C19D2442F00375981 /* AltimeterViewController.xib in Resources */,
 				8A8D0C8019C9A034009E3448 /* PedometerViewController.xib in Resources */,
 				8A8D0C8119C9A034009E3448 /* AnamorphicStretch.cikernel in Resources */,
 				8A8D0C8219C9A034009E3448 /* MirrorX.cikernel in Resources */,
@@ -1082,6 +1101,7 @@
 			files = (
 				8A8D0BF519C99A8A009E3448 /* Vignette.cikernel in Resources */,
 				8A8D0CB619C9A5BA009E3448 /* MetalUniformViewController.xib in Resources */,
+				8A4FB83B19D2442F00375981 /* AltimeterViewController.xib in Resources */,
 				8A308E3119BDDD69007C7315 /* PedometerViewController.xib in Resources */,
 				8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */,
 				8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */,
@@ -1166,6 +1186,7 @@
 				8A8D0C6A19C9A034009E3448 /* main.m in Sources */,
 				8A8D0C6B19C9A034009E3448 /* HistogramViewController.m in Sources */,
 				8A8D0C6C19C9A034009E3448 /* AccordionFoldTransitionViewController.m in Sources */,
+				8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */,
 				8A8D0C6D19C9A034009E3448 /* TouchIDViewController.m in Sources */,
 				8A8D0C6E19C9A034009E3448 /* TTMHistogramHelper.m in Sources */,
 				8A8D0C7019C9A034009E3448 /* UserNotificationViewController.m in Sources */,
@@ -1210,6 +1231,7 @@
 				8A9540FD19A1F282008C6F07 /* SwapRedAndGreen.m in Sources */,
 				8A8D0CCE19C9B13E009E3448 /* shaders.metal in Sources */,
 				8A8D0CB519C9A5BA009E3448 /* MetalUniformViewController.m in Sources */,
+				8A4FB83919D2442F00375981 /* AltimeterViewController.m in Sources */,
 				8A8D0CE919C9B1CF009E3448 /* AAPLTransforms.mm in Sources */,
 				8A8D0CEB19C9B1CF009E3448 /* plasma.metal in Sources */,
 				8AA4B9FD19A175F4006BC800 /* MasterViewController.m in Sources */,

@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUg-pT-rZX">
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUg-pT-rZX">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
@@ -24,6 +24,12 @@
                 </webView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VUg-pT-rZX" secondAttribute="trailing" id="Nzf-0K-bKN"/>
+                <constraint firstItem="VUg-pT-rZX" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="OL7-GD-0W2"/>
+                <constraint firstAttribute="bottom" secondItem="VUg-pT-rZX" secondAttribute="bottom" id="RmA-sF-YeO"/>
+                <constraint firstItem="VUg-pT-rZX" firstAttribute="top" secondItem="1" secondAttribute="top" id="yus-KH-7rH"/>
+            </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

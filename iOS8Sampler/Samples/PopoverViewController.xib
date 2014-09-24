@@ -14,9 +14,13 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MER-nz-f2K">
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MER-nz-f2K">
                     <rect key="frame" x="30" y="110" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Y5F-8l-RZ0"/>
+                        <constraint firstAttribute="height" constant="60" id="cTF-Fd-9a4"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -25,9 +29,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="aeu-qM-cxn"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AA-E0-70B">
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AA-E0-70B">
                     <rect key="frame" x="130" y="110" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="0lj-7U-Ygk"/>
+                        <constraint firstAttribute="height" constant="60" id="Ncb-R0-9kJ"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -36,9 +44,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="eCr-7y-Ngo"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exG-Fe-oK5">
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exG-Fe-oK5">
                     <rect key="frame" x="230" y="110" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="hiS-Gv-xI9"/>
+                        <constraint firstAttribute="height" constant="60" id="ki0-D2-w9M"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,9 +59,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="W12-Dv-Qjo"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shu-aW-U6C">
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shu-aW-U6C">
                     <rect key="frame" x="30" y="220" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="BL5-Bv-xkk"/>
+                        <constraint firstAttribute="height" constant="60" id="JGl-6P-mAe"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,9 +74,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="Dpr-rt-X0F"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-9y-Y7h">
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-9y-Y7h">
                     <rect key="frame" x="130" y="220" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="cJ0-ur-LeN"/>
+                        <constraint firstAttribute="width" constant="60" id="xOr-5L-7nM"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -69,9 +89,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="MBk-q5-taY"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8i-8a-i89">
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8i-8a-i89">
                     <rect key="frame" x="230" y="220" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="csN-4C-vRp"/>
+                        <constraint firstAttribute="width" constant="60" id="pah-ik-C5r"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -80,9 +104,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="3xg-ef-cVg"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICP-OH-8Nr">
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICP-OH-8Nr">
                     <rect key="frame" x="30" y="330" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ZqZ-Ax-ONa"/>
+                        <constraint firstAttribute="width" constant="60" id="rZf-51-qL0"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,9 +119,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="Rhr-FU-XOI"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29G-j9-RR0">
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29G-j9-RR0">
                     <rect key="frame" x="130" y="330" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="6Ic-lK-cvE"/>
+                        <constraint firstAttribute="width" constant="60" id="uxr-ZP-tT3"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -102,9 +134,13 @@
                         <action selector="showBtnTapped:" destination="-1" eventType="touchUpInside" id="s1a-kv-ivu"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ja3-iM-Kb4">
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ja3-iM-Kb4">
                     <rect key="frame" x="230" y="330" width="60" height="60"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Gqd-eB-Gmq"/>
+                        <constraint firstAttribute="width" constant="60" id="l54-gJ-egW"/>
+                    </constraints>
                     <color key="tintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,6 +151,26 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="p8i-8a-i89" firstAttribute="leading" secondItem="7T0-9y-Y7h" secondAttribute="trailing" constant="40" id="5Ex-HX-zSN"/>
+                <constraint firstItem="exG-Fe-oK5" firstAttribute="leading" secondItem="0AA-E0-70B" secondAttribute="trailing" constant="40" id="5On-hI-caR"/>
+                <constraint firstItem="shu-aW-U6C" firstAttribute="top" secondItem="MER-nz-f2K" secondAttribute="bottom" constant="50" id="5yh-tX-GDG"/>
+                <constraint firstItem="Ja3-iM-Kb4" firstAttribute="leading" secondItem="29G-j9-RR0" secondAttribute="trailing" constant="40" id="BQq-LN-5Ws"/>
+                <constraint firstItem="MER-nz-f2K" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="110" id="Dye-7I-kow"/>
+                <constraint firstItem="ICP-OH-8Nr" firstAttribute="top" secondItem="shu-aW-U6C" secondAttribute="bottom" constant="50" id="ECX-bh-RGV"/>
+                <constraint firstItem="p8i-8a-i89" firstAttribute="top" secondItem="exG-Fe-oK5" secondAttribute="bottom" constant="50" id="GgN-gB-tcU"/>
+                <constraint firstAttribute="centerX" secondItem="0AA-E0-70B" secondAttribute="centerX" id="IPB-MW-ZB3"/>
+                <constraint firstItem="29G-j9-RR0" firstAttribute="top" secondItem="7T0-9y-Y7h" secondAttribute="bottom" constant="50" id="Lmo-uD-brI"/>
+                <constraint firstItem="7T0-9y-Y7h" firstAttribute="leading" secondItem="shu-aW-U6C" secondAttribute="trailing" constant="40" id="LxG-Mf-SXe"/>
+                <constraint firstItem="0AA-E0-70B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="110" id="SW1-wB-6yl"/>
+                <constraint firstItem="Ja3-iM-Kb4" firstAttribute="top" secondItem="p8i-8a-i89" secondAttribute="bottom" constant="50" id="Yeg-Y8-on8"/>
+                <constraint firstItem="7T0-9y-Y7h" firstAttribute="top" secondItem="0AA-E0-70B" secondAttribute="bottom" constant="50" id="ptM-rl-rpe"/>
+                <constraint firstItem="29G-j9-RR0" firstAttribute="leading" secondItem="ICP-OH-8Nr" secondAttribute="trailing" constant="40" id="rvc-XS-Rj0"/>
+                <constraint firstItem="0AA-E0-70B" firstAttribute="leading" secondItem="MER-nz-f2K" secondAttribute="trailing" constant="40" id="sTL-Hg-7tD"/>
+                <constraint firstAttribute="centerX" secondItem="7T0-9y-Y7h" secondAttribute="centerX" id="vqm-fE-Ig8"/>
+                <constraint firstItem="exG-Fe-oK5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="110" id="woC-uV-KVS"/>
+                <constraint firstAttribute="centerX" secondItem="29G-j9-RR0" secondAttribute="centerX" id="yko-3f-T3K"/>
+            </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
