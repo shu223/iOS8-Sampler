@@ -152,7 +152,7 @@ Generate a histogram from an image using the filters CIAreaHistogram and CIHisto
 
 ###Code Generator
 
-Generate Aztec Code and 128 Barcord.
+Generate Aztec Code and 128 Barcode.
 
 <img src="ResourcesForREADME/codegen.jpg" height="355">
 

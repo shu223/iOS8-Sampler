@@ -137,7 +137,7 @@
                    
                    // Code Generator
                    @{kItemKeyTitle: @"Code Generator",
-                     kItemKeyDescription: @"Generate Aztec Code and 128 Barcord.",
+                     kItemKeyDescription: @"Generate Aztec Code and 128 Barcode.",
                      kItemKeyClassPrefix: @"CodeGenerator",
                      },
 
