@@ -185,6 +185,10 @@
 		8ABBB65D19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
 		8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
 		8ABBB65F19CBA7D400F44D89 /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
+		8AC6099C1A24A0DC0095796F /* SeparatorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */; };
+		8AC6099D1A24A0DC0095796F /* SeparatorEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */; };
+		8AC6099F1A24A0F00095796F /* SeparatorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */; };
+		8AC609A01A24A0F00095796F /* SeparatorEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */; };
 		8AD104BF19CB99BA00C30A3D /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
 		8AD104C019CB99BA00C30A3D /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
 		8AE7B7B519A1981E00E0C6EB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */; };
@@ -352,6 +356,9 @@
 		8AB959E719A398F4008EE97F /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		8ABBB65A19CBA48800F44D89 /* RubyAnnotationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyAnnotationLabel.h; sourceTree = "<group>"; };
 		8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubyAnnotationLabel.m; sourceTree = "<group>"; };
+		8AC609991A24A0DC0095796F /* SeparatorEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorEffectViewController.h; sourceTree = "<group>"; };
+		8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorEffectViewController.m; sourceTree = "<group>"; };
+		8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorEffectViewController.xib; sourceTree = "<group>"; };
 		8AD104BC19CB99BA00C30A3D /* RubyAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyAnnotationViewController.h; sourceTree = "<group>"; };
 		8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubyAnnotationViewController.m; sourceTree = "<group>"; };
 		8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RubyAnnotationViewController.xib; sourceTree = "<group>"; };
@@ -810,6 +817,16 @@
 			name = UIAlertController;
 			sourceTree = "<group>";
 		};
+		8AC6099E1A24A0DF0095796F /* TableSeperatorEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8AC609991A24A0DC0095796F /* SeparatorEffectViewController.h */,
+				8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */,
+				8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */,
+			);
+			name = TableSeperatorEffect;
+			sourceTree = "<group>";
+		};
 		8AD104C119CB99BF00C30A3D /* RubyAnnotation */ = {
 			isa = PBXGroup;
 			children = (
@@ -859,6 +876,7 @@
 				8AD104C119CB99BF00C30A3D /* RubyAnnotation */,
 				8A4FB83D19D2443600375981 /* Altimeter */,
 				8A60FE6E1A2495F5006D76D9 /* UITableViewRowAction */,
+				8AC6099E1A24A0DF0095796F /* TableSeperatorEffect */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -1087,6 +1105,7 @@
 				8A8D0C8E19C9A034009E3448 /* ImageFiltersViewController.xib in Resources */,
 				8A8D0C8F19C9A034009E3448 /* PhotosViewController.xib in Resources */,
 				8A8D0C9019C9A034009E3448 /* PopoverViewController.xib in Resources */,
+				8AC609A01A24A0F00095796F /* SeparatorEffectViewController.xib in Resources */,
 				8A8D0C9119C9A034009E3448 /* bgm_5.aif in Resources */,
 				8A8D0C9219C9A034009E3448 /* SourceOver.cikernel in Resources */,
 				8A8D0C9319C9A034009E3448 /* bgm_3.aif in Resources */,
@@ -1139,6 +1158,7 @@
 				8AE7B7C819A1999600E0C6EB /* ImageFiltersViewController.xib in Resources */,
 				8A308E2B19BDD98A007C7315 /* PhotosViewController.xib in Resources */,
 				8AB2C5F019C5418F0001BC6A /* PopoverViewController.xib in Resources */,
+				8AC6099D1A24A0DC0095796F /* SeparatorEffectViewController.xib in Resources */,
 				8A9357AC19B2F2ED00290399 /* bgm_5.aif in Resources */,
 				8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */,
 				8A9357AB19B2F2ED00290399 /* bgm_3.aif in Resources */,
@@ -1223,6 +1243,7 @@
 				8A8D0CF319C9CA45009E3448 /* SceneKitViewController.m in Sources */,
 				8A8D0C7919C9A034009E3448 /* UIAlertController+TTMAppearance.m in Sources */,
 				8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */,
+				8AC6099F1A24A0F00095796F /* SeparatorEffectViewController.m in Sources */,
 				8A8D0C7A19C9A034009E3448 /* PedometerViewController.m in Sources */,
 				8A8D0C7B19C9A034009E3448 /* AudioEngineViewController.m in Sources */,
 				8A8D0C7C19C9A034009E3448 /* AlertViewController.m in Sources */,
@@ -1235,6 +1256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AAC232D19A2181800218191 /* WebKitViewController.m in Sources */,
+				8AC6099C1A24A0DC0095796F /* SeparatorEffectViewController.m in Sources */,
 				8A8D0CE319C9B1CF009E3448 /* AAPLPlasmaParams.mm in Sources */,
 				8AE7B7D519A199D400E0C6EB /* HealthKitViewController.m in Sources */,
 				8AE7B7E919A1A57F00E0C6EB /* CustomFiltersViewController.m in Sources */,

@@ -86,6 +86,12 @@
                      kItemKeyDescription: @"Example for UIBlurEffect and UIVibrancyEffect.",
                      kItemKeyClassPrefix: @"VisualEffects",
                      },
+
+                   // Table Separator Effect
+                   @{kItemKeyTitle: @"Table Separator Effect",
+                     kItemKeyDescription: @"Example of separatorEffect which is a new property of UITableView.",
+                     kItemKeyClassPrefix: @"SeparatorEffect",
+                     },
                    
                    // Ruby Annotation
                    @{kItemKeyTitle: @"Ruby Annotation",

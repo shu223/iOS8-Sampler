@@ -1,5 +1,5 @@
 //
-//  RowActionViewController.h
+//  SeparatorEffectViewController.h
 //  iOS8Sampler
 //
 //  Created by Shuichi Tsutsumi on 2014/11/25.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RowActionViewController : UIViewController
+@interface SeparatorEffectViewController : UIViewController
 
 @end

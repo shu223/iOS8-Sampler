@@ -3,7 +3,7 @@
 //  iOS8Sampler
 //
 //  Created by Shuichi Tsutsumi on 2014/11/25.
-//  Copyright (c) 2014年 Shuichi Tsutsumi. All rights reserved.
+//  Copyright (c) 2014 Shuichi Tsutsumi. All rights reserved.
 //
 
 #import "RowActionViewController.h"
@@ -33,17 +33,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-
 
 // =============================================================================
 #pragma mark - TableViewDataSource
@@ -68,6 +57,7 @@
                                       reuseIdentifier:CellIdentifier];
         cell.accessoryType = UITableViewCellAccessoryNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.backgroundColor = [UIColor clearColor];
     }
 
     cell.textLabel.text = self.items[indexPath.row];
@@ -81,22 +71,42 @@
 
 - (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewRowAction *destructiveAction;
-    UITableViewRowAction *normalAction;
+    UITableViewRowAction *destructive;
+    UITableViewRowAction *normal;
+    UITableViewRowAction *customized1;
+    UITableViewRowAction *customized2;
 
-    destructiveAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
-                                                           title:@"destructive"
+
+    destructive = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
+                                                           title:@"dest"
                                                          handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
                                                              [SVProgressHUD showSuccessWithStatus:@"Destructive action has been executed!"];
                                                          }];
 
-    normalAction      = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal
-                                                           title:@"normal"
+    normal      = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal
+                                                           title:@"norm"
                                                          handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
                                                              [SVProgressHUD showSuccessWithStatus:@"Normal action has been executed!"];
                                                          }];
 
-    return @[destructiveAction, normalAction];
+    customized1 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault
+                                                           title:@"cus1"
+                                                         handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+                                                             [SVProgressHUD showSuccessWithStatus:@"An action (customized from default) has been executed!"];
+                                                         }];
+    customized1.backgroundColor = [UIColor greenColor];
+
+    customized2 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault
+                                                           title:@"cus2"
+                                                         handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+                                                             [SVProgressHUD showSuccessWithStatus:@"An action (customized from default) has been executed!"];
+                                                         }];
+    customized2.backgroundEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+
+    return @[destructive,
+             normal,
+             customized1,
+             customized2];
 }
 
 

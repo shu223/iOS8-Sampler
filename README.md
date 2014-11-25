@@ -94,6 +94,13 @@ Example for UIBlurEffect and UIVibrancyEffect.
 <img src="ResourcesForREADME/visualeffect.jpg" width="200">
 
 
+###Table Separator Effect
+
+Example of separatorEffect which is a new property of UITableView.
+
+<img src="ResourcesForREADME/separator.jpg" width="200">
+
+
 ###Ruby Annotation
 
 Display the pronunciation of characters using CTRubyAnnotationRef.
