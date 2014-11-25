@@ -171,6 +171,11 @@ Example of UIPopoverPresentationController.
 <img src="ResourcesForREADME/popover.jpg" width="200">
 
 
+###Table Row Action
+
+Example of UITableViewRowAction.
+
+
 ###Accordion Fold Transition
 
 Transitions from one image to another by folding like accordion. However it doesn't work correctly...**PULL REQUESTS welcome**!!

@@ -20,6 +20,10 @@
 		8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
 		8A4FB83B19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
 		8A4FB83C19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
+		8A60FE6C1A2495EF006D76D9 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
+		8A60FE6D1A2495EF006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
+		8A60FE6F1A24972C006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
+		8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
 		8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
 		8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
 		8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
@@ -229,6 +233,9 @@
 		8A4FB83619D2442F00375981 /* AltimeterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltimeterViewController.h; sourceTree = "<group>"; };
 		8A4FB83719D2442F00375981 /* AltimeterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltimeterViewController.m; sourceTree = "<group>"; };
 		8A4FB83819D2442F00375981 /* AltimeterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AltimeterViewController.xib; sourceTree = "<group>"; };
+		8A60FE691A2495EF006D76D9 /* RowActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowActionViewController.h; sourceTree = "<group>"; };
+		8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowActionViewController.m; sourceTree = "<group>"; };
+		8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowActionViewController.xib; sourceTree = "<group>"; };
 		8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnamorphicStretch.cikernel; sourceTree = "<group>"; };
 		8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MirrorX.cikernel; sourceTree = "<group>"; };
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
@@ -451,6 +458,16 @@
 				8A4FB83819D2442F00375981 /* AltimeterViewController.xib */,
 			);
 			name = Altimeter;
+			sourceTree = "<group>";
+		};
+		8A60FE6E1A2495F5006D76D9 /* UITableViewRowAction */ = {
+			isa = PBXGroup;
+			children = (
+				8A60FE691A2495EF006D76D9 /* RowActionViewController.h */,
+				8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */,
+				8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */,
+			);
+			name = UITableViewRowAction;
 			sourceTree = "<group>";
 		};
 		8A8D0BEB19C99A8A009E3448 /* kernels */ = {
@@ -841,6 +858,7 @@
 				8A8D0CF619C9CA49009E3448 /* SceneKit */,
 				8AD104C119CB99BF00C30A3D /* RubyAnnotation */,
 				8A4FB83D19D2443600375981 /* Altimeter */,
+				8A60FE6E1A2495F5006D76D9 /* UITableViewRowAction */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -1080,6 +1098,7 @@
 				8A8D0C9819C9A034009E3448 /* UserNotificationViewController.xib in Resources */,
 				8A8D0D0719C9D6B8009E3448 /* BrowseCodeViewController.xib in Resources */,
 				8A8D0C9A19C9A034009E3448 /* entitlements.plist in Resources */,
+				8A60FE6F1A24972C006D76D9 /* RowActionViewController.xib in Resources */,
 				8A8D0D0019C9CF7D009E3448 /* SamplerIcon.png in Resources */,
 				8A8D0C9C19C9A034009E3448 /* AudioEngineViewController.xib in Resources */,
 				8A8D0C9D19C9A034009E3448 /* WebKitViewController.xib in Resources */,
@@ -1131,6 +1150,7 @@
 				8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */,
 				8A8D0D0619C9D6B8009E3448 /* BrowseCodeViewController.xib in Resources */,
 				8A8D244619BCD85F0005B633 /* entitlements.plist in Resources */,
+				8A60FE6D1A2495EF006D76D9 /* RowActionViewController.xib in Resources */,
 				8A8D0CFF19C9CF7D009E3448 /* SamplerIcon.png in Resources */,
 				8AB1C2D419AAD0A300B847D0 /* AudioEngineViewController.xib in Resources */,
 				8AAC232E19A2181800218191 /* WebKitViewController.xib in Resources */,
@@ -1163,6 +1183,7 @@
 				8A8D0C5519C9A034009E3448 /* WebKitViewController.m in Sources */,
 				8A8D0C5619C9A034009E3448 /* HealthKitViewController.m in Sources */,
 				8A8D0C5719C9A034009E3448 /* CustomFiltersViewController.m in Sources */,
+				8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */,
 				8A8D0C5819C9A034009E3448 /* UIView+TTMGeometry.m in Sources */,
 				8A8D0C5919C9A034009E3448 /* TTMHealthKitHelper.m in Sources */,
 				8A8D0C5A19C9A034009E3448 /* SVProgressHUD.m in Sources */,
@@ -1222,6 +1243,7 @@
 				8A8D244419BCD3020005B633 /* TTMHealthKitHelper.m in Sources */,
 				8A8D0CD119C9B163009E3448 /* MetalUniformStreamRenderer.mm in Sources */,
 				8AE7B7B619A1981E00E0C6EB /* SVProgressHUD.m in Sources */,
+				8A60FE6C1A2495EF006D76D9 /* RowActionViewController.m in Sources */,
 				8ABBB65C19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */,
 				8A8D0D0419C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */,
 				8A8D0CE119C9B1CF009E3448 /* AAPLCube.mm in Sources */,

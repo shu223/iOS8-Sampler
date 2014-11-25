@@ -153,6 +153,12 @@
                      kItemKeyClassPrefix: @"Popover",
                      },
 
+                   // UITableViewRowAction
+                   @{kItemKeyTitle: @"Table Row Action",
+                     kItemKeyDescription: @"Example of UITableViewRowAction.",
+                     kItemKeyClassPrefix: @"RowAction",
+                     },
+
                    // Accordion Fold Transition
                    @{kItemKeyTitle: @"Accordion Fold Transition",
                      kItemKeyDescription: @"Transitions from one image to another by folding like accordion. However it doesn't work correctly...PULL REQUESTS welcome!!",
