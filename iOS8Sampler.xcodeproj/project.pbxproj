@@ -24,6 +24,12 @@
 		8A60FE6D1A2495EF006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
 		8A60FE6F1A24972C006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
 		8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
+		8A7B171E1A94A6D3002EA528 /* TouchRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */; };
+		8A7B171F1A94A6D3002EA528 /* TouchRadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */; };
+		8A7B17241A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */; };
+		8A7B17251A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */; };
+		8A7B17261A94B2EA002EA528 /* TouchRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */; };
+		8A7B17271A94B2EA002EA528 /* TouchRadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */; };
 		8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
 		8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
 		8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
@@ -240,6 +246,10 @@
 		8A60FE691A2495EF006D76D9 /* RowActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowActionViewController.h; sourceTree = "<group>"; };
 		8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowActionViewController.m; sourceTree = "<group>"; };
 		8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowActionViewController.xib; sourceTree = "<group>"; };
+		8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchRadiusViewController.swift; sourceTree = "<group>"; };
+		8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchRadiusViewController.xib; sourceTree = "<group>"; };
+		8A7B17221A94B2DF002EA528 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
 		8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnamorphicStretch.cikernel; sourceTree = "<group>"; };
 		8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MirrorX.cikernel; sourceTree = "<group>"; };
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
@@ -475,6 +485,24 @@
 				8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */,
 			);
 			name = UITableViewRowAction;
+			sourceTree = "<group>";
+		};
+		8A7B17201A94A6DB002EA528 /* TouchRadius */ = {
+			isa = PBXGroup;
+			children = (
+				8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */,
+				8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */,
+			);
+			name = TouchRadius;
+			sourceTree = "<group>";
+		};
+		8A7B17211A94B2DF002EA528 /* PulsingHalo */ = {
+			isa = PBXGroup;
+			children = (
+				8A7B17221A94B2DF002EA528 /* PulsingHaloLayer.h */,
+				8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */,
+			);
+			path = PulsingHalo;
 			sourceTree = "<group>";
 		};
 		8A8D0BEB19C99A8A009E3448 /* kernels */ = {
@@ -738,6 +766,7 @@
 		8AA4BA2419A18E9B006BC800 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				8A7B17211A94B2DF002EA528 /* PulsingHalo */,
 				8A8D0CC319C9B13E009E3448 /* AAPL */,
 				8AE7B7B119A1981E00E0C6EB /* SVProgressHUD */,
 				8AA4BA2519A18E9B006BC800 /* TTM */,
@@ -877,6 +906,7 @@
 				8A4FB83D19D2443600375981 /* Altimeter */,
 				8A60FE6E1A2495F5006D76D9 /* UITableViewRowAction */,
 				8AC6099E1A24A0DF0095796F /* TableSeperatorEffect */,
+				8A7B17201A94A6DB002EA528 /* TouchRadius */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -1128,6 +1158,7 @@
 				8A8D0CA119C9A034009E3448 /* mh2_09.wav in Resources */,
 				8A8D0CA219C9A034009E3448 /* MetalBasicViewController.xib in Resources */,
 				8A8D0CA319C9A034009E3448 /* VisualEffectsViewController.xib in Resources */,
+				8A7B17271A94B2EA002EA528 /* TouchRadiusViewController.xib in Resources */,
 				8A8D0CA419C9A034009E3448 /* AlertViewController.xib in Resources */,
 				8A8D0CA519C9A034009E3448 /* mh2_03.wav in Resources */,
 			);
@@ -1181,6 +1212,7 @@
 				8A9357AE19B2F2ED00290399 /* mh2_09.wav in Resources */,
 				8A9BA65D19C96F790015DEFB /* MetalBasicViewController.xib in Resources */,
 				8AAC233F19A230E300218191 /* VisualEffectsViewController.xib in Resources */,
+				8A7B171F1A94A6D3002EA528 /* TouchRadiusViewController.xib in Resources */,
 				8AB959AE19A38478008EE97F /* AlertViewController.xib in Resources */,
 				8A9357AD19B2F2ED00290399 /* mh2_03.wav in Resources */,
 			);
@@ -1204,6 +1236,7 @@
 				8A8D0C5619C9A034009E3448 /* HealthKitViewController.m in Sources */,
 				8A8D0C5719C9A034009E3448 /* CustomFiltersViewController.m in Sources */,
 				8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */,
+				8A7B17261A94B2EA002EA528 /* TouchRadiusViewController.swift in Sources */,
 				8A8D0C5819C9A034009E3448 /* UIView+TTMGeometry.m in Sources */,
 				8A8D0C5919C9A034009E3448 /* TTMHealthKitHelper.m in Sources */,
 				8A8D0C5A19C9A034009E3448 /* SVProgressHUD.m in Sources */,
@@ -1240,6 +1273,7 @@
 				8A8D0C7619C9A034009E3448 /* SourceOver.m in Sources */,
 				8A8D0C7719C9A034009E3448 /* MetalBasicViewController.m in Sources */,
 				8A8D0C7819C9A034009E3448 /* CodeGeneratorViewController.m in Sources */,
+				8A7B17251A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */,
 				8A8D0CF319C9CA45009E3448 /* SceneKitViewController.m in Sources */,
 				8A8D0C7919C9A034009E3448 /* UIAlertController+TTMAppearance.m in Sources */,
 				8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */,
@@ -1284,6 +1318,7 @@
 				8A308E2A19BDD98A007C7315 /* PhotosViewController.m in Sources */,
 				8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */,
 				8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */,
+				8A7B171E1A94A6D3002EA528 /* TouchRadiusViewController.swift in Sources */,
 				8AD104BF19CB99BA00C30A3D /* RubyAnnotationViewController.m in Sources */,
 				8A8D0CBB19C9A91E009E3448 /* TTMMetalRenderer.mm in Sources */,
 				8A95411119A20CF8008C6F07 /* AnamorphicStretch.m in Sources */,
@@ -1294,6 +1329,7 @@
 				8AE7B7DB19A19A0300E0C6EB /* TouchIDViewController.m in Sources */,
 				8A8D243E19BCD21C0005B633 /* TTMHistogramHelper.m in Sources */,
 				8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */,
+				8A7B17241A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */,
 				8A8D0CE519C9B1CF009E3448 /* AAPLPlasmaUniforms.mm in Sources */,
 				8AA4BA2E19A191C1006BC800 /* CommonButton.m in Sources */,
 				8AB2C5F519C5426F0001BC6A /* PopoverDetailViewController.m in Sources */,
@@ -1456,10 +1492,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1472,10 +1511,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 			};
 			name = Release;

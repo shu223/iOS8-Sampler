@@ -81,6 +81,12 @@
                      kItemKeyClassPrefix: @"TouchID",
                      },
                    
+                   // Touch Radius
+                   @{kItemKeyTitle: @"Touch Radius",
+                     kItemKeyDescription: @"Visualize the radiuses of touches using a new property of UITouch.",
+                     kItemKeyClassPrefix: @"TouchRadius",
+                     },
+                   
                    // Visual Effects
                    @{kItemKeyTitle: @"Visual Effects",
                      kItemKeyDescription: @"Example for UIBlurEffect and UIVibrancyEffect.",

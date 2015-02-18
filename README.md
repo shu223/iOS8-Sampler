@@ -87,6 +87,13 @@ Invoke Touch ID verification using LocalAuthentication.
 <img src="ResourcesForREADME/touch.jpg" width="200">
 
 
+###Touch Radius
+
+Visualize the radiuses of touches using a new property of UITouch.
+
+<img src="ResourcesForREADME/touch_radius.gif">
+
+
 ###Visual Effects
 
 Example for UIBlurEffect and UIVibrancyEffect.
