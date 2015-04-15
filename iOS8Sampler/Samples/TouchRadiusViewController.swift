@@ -10,15 +10,15 @@ import UIKit
 
 
 class TouchRadiusViewController: UIViewController {
-    
+
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-    override init() {
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: "TouchRadiusViewController", bundle: nil)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -61,11 +61,11 @@ class TouchRadiusViewController: UIViewController {
     // =========================================================================
     // MARK: Touch Handlers
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+
         for obj: AnyObject in touches {
             
-            let touch = obj as UITouch
+            let touch = obj as! UITouch
             let location = touch.locationInView(self.view)
             let radius = touch.majorRadius
             

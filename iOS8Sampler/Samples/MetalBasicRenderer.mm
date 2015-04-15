@@ -207,7 +207,7 @@ static const float kCubeVertexData[] =
 - (void)reshape:(AAPLView *)view
 {
     // when reshape is called, update the view and projection matricies since this means the view orientation or size changed
-    float aspect = fabsf(view.bounds.size.width / view.bounds.size.height);
+    float aspect = std::abs(view.bounds.size.width / view.bounds.size.height);
     _projectionMatrix = perspective_fov(kFOVY, aspect, 0.1f, 100.0f);
     _viewMatrix = lookAt(kEye, kCenter, kUp);
 }
