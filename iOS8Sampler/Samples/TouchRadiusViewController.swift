@@ -3,7 +3,7 @@
 //  iOS8Sampler
 //
 //  Created by Shuichi Tsutsumi on 2015/02/18.
-//  Copyright (c) 2015年 Shuichi Tsutsumi. All rights reserved.
+//  Copyright (c) 2015 Shuichi Tsutsumi. All rights reserved.
 //
 
 import UIKit
@@ -61,8 +61,8 @@ class TouchRadiusViewController: UIViewController {
     // =========================================================================
     // MARK: Touch Handlers
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
         for obj: AnyObject in touches {
             
             let touch = obj as! UITouch

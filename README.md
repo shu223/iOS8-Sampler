@@ -3,7 +3,7 @@
 iOS8-Sampler
 ============
 
-Code examples for the new functions of iOS 8.
+Code examples for the new features of iOS 8.
 
 <img src="http://f.cl.ly/items/2m0W310X0f0J2Z0b0o2r/top.jpg" width="240">
 

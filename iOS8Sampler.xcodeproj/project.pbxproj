@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
-		8A308E2A19BDD98A007C7315 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2819BDD98A007C7315 /* PhotosViewController.m */; };
-		8A308E2B19BDD98A007C7315 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2919BDD98A007C7315 /* PhotosViewController.xib */; };
 		8A308E3019BDDD69007C7315 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
 		8A308E3119BDDD69007C7315 /* PedometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2F19BDDD69007C7315 /* PedometerViewController.xib */; };
 		8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
@@ -48,7 +46,6 @@
 		8A8D0C5F19C9A034009E3448 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9FC19A175F4006BC800 /* MasterViewController.m */; };
 		8A8D0C6219C9A034009E3448 /* MotionBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC233619A22CA500218191 /* MotionBlurViewController.m */; };
 		8A8D0C6319C9A034009E3448 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C5ED19C5418F0001BC6A /* PopoverViewController.m */; };
-		8A8D0C6519C9A034009E3448 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2819BDD98A007C7315 /* PhotosViewController.m */; };
 		8A8D0C6619C9A034009E3448 /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
 		8A8D0C6719C9A034009E3448 /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
 		8A8D0C6819C9A034009E3448 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
@@ -86,7 +83,6 @@
 		8A8D0C8C19C9A034009E3448 /* CustomFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7E819A1A57F00E0C6EB /* CustomFiltersViewController.xib */; };
 		8A8D0C8D19C9A034009E3448 /* AddedFonts8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244F19BCFD030005B633 /* AddedFonts8.plist */; };
 		8A8D0C8E19C9A034009E3448 /* ImageFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7C219A1999600E0C6EB /* ImageFiltersViewController.xib */; };
-		8A8D0C8F19C9A034009E3448 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2919BDD98A007C7315 /* PhotosViewController.xib */; };
 		8A8D0C9019C9A034009E3448 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2C5EE19C5418F0001BC6A /* PopoverViewController.xib */; };
 		8A8D0C9119C9A034009E3448 /* bgm_5.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A619B2F2ED00290399 /* bgm_5.aif */; };
 		8A8D0C9219C9A034009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
@@ -170,7 +166,6 @@
 		8AA4B9FA19A175F4006BC800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F919A175F4006BC800 /* AppDelegate.m */; };
 		8AA4B9FD19A175F4006BC800 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9FC19A175F4006BC800 /* MasterViewController.m */; };
 		8AA4BA0319A175F5006BC800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4BA0119A175F5006BC800 /* Main.storyboard */; };
-		8AA4BA1119A175F5006BC800 /* iOS8SamplerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4BA1019A175F5006BC800 /* iOS8SamplerTests.m */; };
 		8AA4BA2E19A191C1006BC800 /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4BA2D19A191C1006BC800 /* CommonButton.m */; };
 		8AAC232D19A2181800218191 /* WebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC232B19A2181800218191 /* WebKitViewController.m */; };
 		8AAC232E19A2181800218191 /* WebKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC232C19A2181800218191 /* WebKitViewController.xib */; };
@@ -215,24 +210,11 @@
 		8AE7B7F519A1C4F000E0C6EB /* CodeGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8AA4BA0B19A175F5006BC800 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AA4B9E919A175F4006BC800 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AA4B9F019A175F4006BC800;
-			remoteInfo = iOS8Sampler;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		8A308E2119BDADB9007C7315 /* UserNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotificationViewController.h; sourceTree = "<group>"; };
 		8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNotificationViewController.m; sourceTree = "<group>"; };
 		8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNotificationViewController.xib; sourceTree = "<group>"; };
 		8A308E2619BDCA2F007C7315 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		8A308E2719BDD98A007C7315 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
-		8A308E2819BDD98A007C7315 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
-		8A308E2919BDD98A007C7315 /* PhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
 		8A308E2D19BDDD69007C7315 /* PedometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerViewController.h; sourceTree = "<group>"; };
 		8A308E2E19BDDD69007C7315 /* PedometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerViewController.m; sourceTree = "<group>"; };
 		8A308E2F19BDDD69007C7315 /* PedometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PedometerViewController.xib; sourceTree = "<group>"; };
@@ -335,7 +317,6 @@
 		8AA4B9FB19A175F4006BC800 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		8AA4B9FC19A175F4006BC800 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		8AA4BA0219A175F5006BC800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA4BA0A19A175F5006BC800 /* iOS8SamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA4BA0F19A175F5006BC800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA4BA1019A175F5006BC800 /* iOS8SamplerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8SamplerTests.m; sourceTree = "<group>"; };
 		8AA4BA2C19A191C1006BC800 /* CommonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonButton.h; sourceTree = "<group>"; };
@@ -417,13 +398,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AA4BA0719A175F5006BC800 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -435,16 +409,6 @@
 				8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */,
 			);
 			name = UserNotification;
-			sourceTree = "<group>";
-		};
-		8A308E2C19BDD98F007C7315 /* Photos */ = {
-			isa = PBXGroup;
-			children = (
-				8A308E2719BDD98A007C7315 /* PhotosViewController.h */,
-				8A308E2819BDD98A007C7315 /* PhotosViewController.m */,
-				8A308E2919BDD98A007C7315 /* PhotosViewController.xib */,
-			);
-			name = Photos;
 			sourceTree = "<group>";
 		};
 		8A308E3219BDDD6D007C7315 /* Pedometer */ = {
@@ -701,7 +665,6 @@
 			isa = PBXGroup;
 			children = (
 				8AA4B9F119A175F4006BC800 /* iOS8Sampler.app */,
-				8AA4BA0A19A175F5006BC800 /* iOS8SamplerTests.xctest */,
 				8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */,
 			);
 			name = Products;
@@ -894,7 +857,6 @@
 				8AB959AF19A38483008EE97F /* UIAlertController */,
 				8A308E2019BDADA3007C7315 /* UserNotification */,
 				8A8D244819BCFC6B0005B633 /* Fonts */,
-				8A308E2C19BDD98F007C7315 /* Photos */,
 				8A308E3219BDDD6D007C7315 /* Pedometer */,
 				8A308E3E19BDEFC6007C7315 /* AVKit */,
 				8AB2C5F119C541960001BC6A /* Popover */,
@@ -1039,31 +1001,14 @@
 			productReference = 8AA4B9F119A175F4006BC800 /* iOS8Sampler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AA4BA0919A175F5006BC800 /* iOS8SamplerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AA4BA1719A175F5006BC800 /* Build configuration list for PBXNativeTarget "iOS8SamplerTests" */;
-			buildPhases = (
-				8AA4BA0619A175F5006BC800 /* Sources */,
-				8AA4BA0719A175F5006BC800 /* Frameworks */,
-				8AA4BA0819A175F5006BC800 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AA4BA0C19A175F5006BC800 /* PBXTargetDependency */,
-			);
-			name = iOS8SamplerTests;
-			productName = iOS8SamplerTests;
-			productReference = 8AA4BA0A19A175F5006BC800 /* iOS8SamplerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8AA4B9E919A175F4006BC800 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
 				TargetAttributes = {
 					8A8D0C5219C9A034009E3448 = {
@@ -1083,10 +1028,6 @@
 							};
 						};
 					};
-					8AA4BA0919A175F5006BC800 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 8AA4B9F019A175F4006BC800;
-					};
 				};
 			};
 			buildConfigurationList = 8AA4B9EC19A175F4006BC800 /* Build configuration list for PBXProject "iOS8Sampler" */;
@@ -1104,7 +1045,6 @@
 			targets = (
 				8AA4B9F019A175F4006BC800 /* iOS8Sampler */,
 				8A8D0C5219C9A034009E3448 /* iOS8SamplerSimulator */,
-				8AA4BA0919A175F5006BC800 /* iOS8SamplerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1133,7 +1073,6 @@
 				8A8D0C8C19C9A034009E3448 /* CustomFiltersViewController.xib in Resources */,
 				8A8D0C8D19C9A034009E3448 /* AddedFonts8.plist in Resources */,
 				8A8D0C8E19C9A034009E3448 /* ImageFiltersViewController.xib in Resources */,
-				8A8D0C8F19C9A034009E3448 /* PhotosViewController.xib in Resources */,
 				8A8D0C9019C9A034009E3448 /* PopoverViewController.xib in Resources */,
 				8AC609A01A24A0F00095796F /* SeparatorEffectViewController.xib in Resources */,
 				8A8D0C9119C9A034009E3448 /* bgm_5.aif in Resources */,
@@ -1187,7 +1126,6 @@
 				8AE7B7EA19A1A57F00E0C6EB /* CustomFiltersViewController.xib in Resources */,
 				8A8D245019BCFD030005B633 /* AddedFonts8.plist in Resources */,
 				8AE7B7C819A1999600E0C6EB /* ImageFiltersViewController.xib in Resources */,
-				8A308E2B19BDD98A007C7315 /* PhotosViewController.xib in Resources */,
 				8AB2C5F019C5418F0001BC6A /* PopoverViewController.xib in Resources */,
 				8AC6099D1A24A0DC0095796F /* SeparatorEffectViewController.xib in Resources */,
 				8A9357AC19B2F2ED00290399 /* bgm_5.aif in Resources */,
@@ -1218,13 +1156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AA4BA0819A175F5006BC800 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1251,7 +1182,6 @@
 				8A8D0C6219C9A034009E3448 /* MotionBlurViewController.m in Sources */,
 				8A8D0C6319C9A034009E3448 /* PopoverViewController.m in Sources */,
 				8A8D0CBC19C9AD99009E3448 /* MetalUniformViewController.m in Sources */,
-				8A8D0C6519C9A034009E3448 /* PhotosViewController.m in Sources */,
 				8A8D0D0519C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */,
 				8A8D0C6619C9A034009E3448 /* AVKitViewController.m in Sources */,
 				8A8D0C6719C9A034009E3448 /* MirrorX.m in Sources */,
@@ -1315,7 +1245,6 @@
 				8AA4B9FD19A175F4006BC800 /* MasterViewController.m in Sources */,
 				8AAC233819A22CA500218191 /* MotionBlurViewController.m in Sources */,
 				8AB2C5EF19C5418F0001BC6A /* PopoverViewController.m in Sources */,
-				8A308E2A19BDD98A007C7315 /* PhotosViewController.m in Sources */,
 				8A308E3C19BDEFC2007C7315 /* AVKitViewController.m in Sources */,
 				8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */,
 				8A7B171E1A94A6D3002EA528 /* TouchRadiusViewController.swift in Sources */,
@@ -1348,23 +1277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AA4BA0619A175F5006BC800 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AA4BA1119A175F5006BC800 /* iOS8SamplerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8AA4BA0C19A175F5006BC800 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AA4B9F019A175F4006BC800 /* iOS8Sampler */;
-			targetProxy = 8AA4BA0B19A175F5006BC800 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8AA4BA0119A175F5006BC800 /* Main.storyboard */ = {
@@ -1388,6 +1301,7 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
 				PRODUCT_NAME = iOS8SamplerSimulator;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1404,6 +1318,7 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
 				PRODUCT_NAME = iOS8SamplerSimulator;
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
 			};
@@ -1429,6 +1344,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1497,6 +1413,7 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
@@ -1516,43 +1433,10 @@
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		8AA4BA1819A175F5006BC800 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = iOS8SamplerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8Sampler.app/iOS8Sampler";
-			};
-			name = Debug;
-		};
-		8AA4BA1919A175F5006BC800 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = iOS8SamplerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8Sampler.app/iOS8Sampler";
 			};
 			name = Release;
 		};
@@ -1582,15 +1466,6 @@
 			buildConfigurations = (
 				8AA4BA1519A175F5006BC800 /* Debug */,
 				8AA4BA1619A175F5006BC800 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AA4BA1719A175F5006BC800 /* Build configuration list for PBXNativeTarget "iOS8SamplerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AA4BA1819A175F5006BC800 /* Debug */,
-				8AA4BA1919A175F5006BC800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
