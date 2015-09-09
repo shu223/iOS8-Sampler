@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
 		8A308E3019BDDD69007C7315 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
@@ -211,6 +212,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewCell.swift; sourceTree = "<group>"; };
 		8A308E2119BDADB9007C7315 /* UserNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotificationViewController.h; sourceTree = "<group>"; };
 		8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNotificationViewController.m; sourceTree = "<group>"; };
 		8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNotificationViewController.xib; sourceTree = "<group>"; };
@@ -677,6 +679,7 @@
 				8AA4B9F919A175F4006BC800 /* AppDelegate.m */,
 				8AA4B9FB19A175F4006BC800 /* MasterViewController.h */,
 				8AA4B9FC19A175F4006BC800 /* MasterViewController.m */,
+				8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */,
 				8AA4BA0119A175F5006BC800 /* Main.storyboard */,
 				8A8D0D0119C9D6B8009E3448 /* BrowseCodeViewController.h */,
 				8A8D0D0219C9D6B8009E3448 /* BrowseCodeViewController.m */,
@@ -1265,6 +1268,7 @@
 				8A8D0CCD19C9B13E009E3448 /* AAPLTransforms.mm in Sources */,
 				8AAC233E19A230E300218191 /* VisualEffectsViewController.m in Sources */,
 				8A8D244119BCD22E0005B633 /* TTMAudioUnitEffectHelper.m in Sources */,
+				8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */,
 				8A95410719A20563008C6F07 /* SourceOver.m in Sources */,
 				8A9BA65C19C96F790015DEFB /* MetalBasicViewController.m in Sources */,
 				8AE7B7F419A1C4F000E0C6EB /* CodeGeneratorViewController.m in Sources */,

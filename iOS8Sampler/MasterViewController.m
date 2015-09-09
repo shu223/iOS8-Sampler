@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "BrowseCodeViewController.h"
+#import "iOS8Sampler-Swift.h"
 
 
 #define kItemKeyTitle       @"title"
@@ -232,11 +233,11 @@
 {
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    MasterViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     NSDictionary *info = self.items[indexPath.row];
-    cell.textLabel.text = info[kItemKeyTitle];
-    cell.detailTextLabel.text = info[kItemKeyDescription];
+    cell.titleLabel.text = info[kItemKeyTitle];
+    cell.detailLabel.text = info[kItemKeyDescription];
     
     return cell;
 }
@@ -244,6 +245,16 @@
 
 // =============================================================================
 #pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return UITableViewAutomaticDimension;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return UITableViewAutomaticDimension;
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
