@@ -36,7 +36,7 @@
                    
                    // New Image Filters
                    @{kItemKeyTitle: @"New Image Filters",
-                     kItemKeyDescription: @"New filters of CIFilter such as CIGrassDistortion, CIDivideBlendMode, ...",
+                     kItemKeyDescription: @"New filters of CIFilter such as CIGlassDistortion, CIDivideBlendMode, ...",
                      kItemKeyClassPrefix: @"ImageFilters",
                      },
 

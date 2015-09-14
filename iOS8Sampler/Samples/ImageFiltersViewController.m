@@ -102,7 +102,7 @@
         
         // param for distortion
         if ([filter respondsToSelector:NSSelectorFromString(@"inputTexture")]) {
-            CIImage *ciTextureImage = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"grassdistortion"]];
+            CIImage *ciTextureImage = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"glassdistortion"]];
             [filter setValue:ciTextureImage forKey:@"inputTexture"];
         }
         
