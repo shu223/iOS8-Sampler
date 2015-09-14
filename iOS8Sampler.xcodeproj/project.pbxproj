@@ -161,6 +161,7 @@
 		8A95410719A20563008C6F07 /* SourceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410619A20563008C6F07 /* SourceOver.m */; };
 		8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
 		8A95411119A20CF8008C6F07 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
+		8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		8A9BA65C19C96F790015DEFB /* MetalBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */; };
 		8A9BA65D19C96F790015DEFB /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
 		8AA4B9F719A175F4006BC800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F619A175F4006BC800 /* main.m */; };
@@ -308,6 +309,7 @@
 		8A95410D19A2074A008C6F07 /* MirrorX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MirrorX.m; sourceTree = "<group>"; };
 		8A95410F19A20CF8008C6F07 /* AnamorphicStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnamorphicStretch.h; sourceTree = "<group>"; };
 		8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnamorphicStretch.m; sourceTree = "<group>"; };
+		8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8A9BA65919C96F790015DEFB /* MetalBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalBasicViewController.h; sourceTree = "<group>"; };
 		8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalBasicViewController.m; sourceTree = "<group>"; };
 		8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MetalBasicViewController.xib; sourceTree = "<group>"; };
@@ -675,6 +677,7 @@
 		8AA4B9F319A175F4006BC800 /* iOS8Sampler */ = {
 			isa = PBXGroup;
 			children = (
+				8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */,
 				8AA4B9F819A175F4006BC800 /* AppDelegate.h */,
 				8AA4B9F919A175F4006BC800 /* AppDelegate.m */,
 				8AA4B9FB19A175F4006BC800 /* MasterViewController.h */,
@@ -1111,6 +1114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8D0BF519C99A8A009E3448 /* Vignette.cikernel in Resources */,
+				8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */,
 				8A8D0CB619C9A5BA009E3448 /* MetalUniformViewController.xib in Resources */,
 				8A4FB83B19D2442F00375981 /* AltimeterViewController.xib in Resources */,
 				8A308E3119BDDD69007C7315 /* PedometerViewController.xib in Resources */,
@@ -1299,7 +1303,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
@@ -1316,7 +1319,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
@@ -1409,7 +1411,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1429,7 +1430,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
