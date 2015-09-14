@@ -27,9 +27,6 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);
     
-    CGAffineTransform transform = CGAffineTransformMakeScale(1, -1);
-    transform = CGAffineTransformTranslate(transform, 0, - self.bounds.size.height);
-    
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     CGContextSetTextMatrix(ctx, CGAffineTransformIdentity);
     CGContextTranslateCTM(ctx, 0, ([self bounds]).size.height );
@@ -78,7 +75,7 @@
     CFAttributedStringRef attributes = CFAttributedStringCreate(NULL, (__bridge CFStringRef)self.text, attr);
     CFRelease(attr);
     
-    return attributes;
+    return CFAutorelease(attributes);
 }
 
 
