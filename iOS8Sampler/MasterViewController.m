@@ -8,7 +8,11 @@
 
 #import "MasterViewController.h"
 #import "BrowseCodeViewController.h"
+#ifdef SIMULATOR
+#import "iOS8SamplerSimulator-Swift.h"
+#else
 #import "iOS8Sampler-Swift.h"
+#endif
 
 
 #define kItemKeyTitle       @"title"

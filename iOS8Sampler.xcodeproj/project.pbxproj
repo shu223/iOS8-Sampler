@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		1EAE941A1BD21B87009C0F37 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; };
+		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
 		8A308E3019BDDD69007C7315 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
@@ -161,7 +162,7 @@
 		8A95410719A20563008C6F07 /* SourceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410619A20563008C6F07 /* SourceOver.m */; };
 		8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
 		8A95411119A20CF8008C6F07 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
-		8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */; };
 		8A9BA65C19C96F790015DEFB /* MetalBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */; };
 		8A9BA65D19C96F790015DEFB /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
 		8AA4B9F719A175F4006BC800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F619A175F4006BC800 /* main.m */; };
@@ -1198,6 +1199,7 @@
 				8A8D0C6B19C9A034009E3448 /* HistogramViewController.m in Sources */,
 				8A8D0C6C19C9A034009E3448 /* AccordionFoldTransitionViewController.m in Sources */,
 				8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */,
+				1EAE941A1BD21B87009C0F37 /* MasterViewCell.swift in Sources */,
 				8A8D0C6D19C9A034009E3448 /* TouchIDViewController.m in Sources */,
 				8A8D0C6E19C9A034009E3448 /* TTMHistogramHelper.m in Sources */,
 				8A8D0C7019C9A034009E3448 /* UserNotificationViewController.m in Sources */,
@@ -1306,6 +1308,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SIMULATOR=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
