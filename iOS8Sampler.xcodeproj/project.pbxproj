@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
 		8A308E3019BDDD69007C7315 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
@@ -16,104 +16,22 @@
 		8A308E3D19BDEFC2007C7315 /* AVKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */; };
 		8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A40F6B719CA528A005F34A3 /* Metal.framework */; };
 		8A4FB83919D2442F00375981 /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
-		8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
 		8A4FB83B19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
-		8A4FB83C19D2442F00375981 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
 		8A60FE6C1A2495EF006D76D9 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
 		8A60FE6D1A2495EF006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
-		8A60FE6F1A24972C006D76D9 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
-		8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
 		8A7B171E1A94A6D3002EA528 /* TouchRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */; };
 		8A7B171F1A94A6D3002EA528 /* TouchRadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */; };
 		8A7B17241A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */; };
-		8A7B17251A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B17231A94B2DF002EA528 /* PulsingHaloLayer.m */; };
-		8A7B17261A94B2EA002EA528 /* TouchRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B171C1A94A6D3002EA528 /* TouchRadiusViewController.swift */; };
-		8A7B17271A94B2EA002EA528 /* TouchRadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B171D1A94A6D3002EA528 /* TouchRadiusViewController.xib */; };
 		8A8D0BF119C99A8A009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
 		8A8D0BF219C99A8A009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
 		8A8D0BF319C99A8A009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
 		8A8D0BF419C99A8A009E3448 /* SwapRedAndGreen.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEF19C99A8A009E3448 /* SwapRedAndGreen.cikernel */; };
 		8A8D0BF519C99A8A009E3448 /* Vignette.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BF019C99A8A009E3448 /* Vignette.cikernel */; };
-		8A8D0C5519C9A034009E3448 /* WebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC232B19A2181800218191 /* WebKitViewController.m */; };
-		8A8D0C5619C9A034009E3448 /* HealthKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D319A199D400E0C6EB /* HealthKitViewController.m */; };
-		8A8D0C5719C9A034009E3448 /* CustomFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7E719A1A57F00E0C6EB /* CustomFiltersViewController.m */; };
-		8A8D0C5819C9A034009E3448 /* UIView+TTMGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540E919A1C95C008C6F07 /* UIView+TTMGeometry.m */; };
-		8A8D0C5919C9A034009E3448 /* TTMHealthKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244319BCD3020005B633 /* TTMHealthKitHelper.m */; };
-		8A8D0C5A19C9A034009E3448 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B419A1981E00E0C6EB /* SVProgressHUD.m */; };
-		8A8D0C5B19C9A034009E3448 /* ImageFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7C119A1999600E0C6EB /* ImageFiltersViewController.m */; };
-		8A8D0C5C19C9A034009E3448 /* Vignette.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410119A1F5C8008C6F07 /* Vignette.m */; };
-		8A8D0C5D19C9A034009E3448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F919A175F4006BC800 /* AppDelegate.m */; };
-		8A8D0C5E19C9A034009E3448 /* SwapRedAndGreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540FC19A1F282008C6F07 /* SwapRedAndGreen.m */; };
-		8A8D0C5F19C9A034009E3448 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9FC19A175F4006BC800 /* MasterViewController.m */; };
-		8A8D0C6219C9A034009E3448 /* MotionBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC233619A22CA500218191 /* MotionBlurViewController.m */; };
-		8A8D0C6319C9A034009E3448 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C5ED19C5418F0001BC6A /* PopoverViewController.m */; };
-		8A8D0C6619C9A034009E3448 /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
-		8A8D0C6719C9A034009E3448 /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
-		8A8D0C6819C9A034009E3448 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
-		8A8D0C6919C9A034009E3448 /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244A19BCFC7B0005B633 /* FontsViewController.m */; };
-		8A8D0C6A19C9A034009E3448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F619A175F4006BC800 /* main.m */; };
-		8A8D0C6B19C9A034009E3448 /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7BE19A1999600E0C6EB /* HistogramViewController.m */; };
-		8A8D0C6C19C9A034009E3448 /* AccordionFoldTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540F019A1C9EA008C6F07 /* AccordionFoldTransitionViewController.m */; };
-		8A8D0C6D19C9A034009E3448 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D919A19A0300E0C6EB /* TouchIDViewController.m */; };
-		8A8D0C6E19C9A034009E3448 /* TTMHistogramHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D243D19BCD21C0005B633 /* TTMHistogramHelper.m */; };
-		8A8D0C7019C9A034009E3448 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
-		8A8D0C7219C9A034009E3448 /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4BA2D19A191C1006BC800 /* CommonButton.m */; };
-		8A8D0C7319C9A034009E3448 /* PopoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C5F319C5426F0001BC6A /* PopoverDetailViewController.m */; };
-		8A8D0C7419C9A034009E3448 /* VisualEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC233C19A230E300218191 /* VisualEffectsViewController.m */; };
-		8A8D0C7519C9A034009E3448 /* TTMAudioUnitEffectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244019BCD22E0005B633 /* TTMAudioUnitEffectHelper.m */; };
-		8A8D0C7619C9A034009E3448 /* SourceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410619A20563008C6F07 /* SourceOver.m */; };
-		8A8D0C7719C9A034009E3448 /* MetalBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */; };
-		8A8D0C7819C9A034009E3448 /* CodeGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F219A1C4F000E0C6EB /* CodeGeneratorViewController.m */; };
-		8A8D0C7919C9A034009E3448 /* UIAlertController+TTMAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959B119A38D83008EE97F /* UIAlertController+TTMAppearance.m */; };
-		8A8D0C7A19C9A034009E3448 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
-		8A8D0C7B19C9A034009E3448 /* AudioEngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1C2D119AAD0A300B847D0 /* AudioEngineViewController.m */; };
-		8A8D0C7C19C9A034009E3448 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959E719A398F4008EE97F /* AlertViewController.m */; };
-		8A8D0C7F19C9A034009E3448 /* Vignette.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BF019C99A8A009E3448 /* Vignette.cikernel */; };
-		8A8D0C8019C9A034009E3448 /* PedometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2F19BDDD69007C7315 /* PedometerViewController.xib */; };
-		8A8D0C8119C9A034009E3448 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
-		8A8D0C8219C9A034009E3448 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
-		8A8D0C8319C9A034009E3448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7ED19A1B8D700E0C6EB /* Images.xcassets */; };
-		8A8D0C8419C9A034009E3448 /* FontsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244B19BCFC7B0005B633 /* FontsViewController.xib */; };
-		8A8D0C8519C9A034009E3448 /* CodeGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */; };
-		8A8D0C8619C9A034009E3448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4BA0119A175F5006BC800 /* Main.storyboard */; };
-		8A8D0C8719C9A034009E3448 /* AccordionFoldTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9540F119A1C9EA008C6F07 /* AccordionFoldTransitionViewController.xib */; };
-		8A8D0C8819C9A034009E3448 /* PopoverDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2C5F419C5426F0001BC6A /* PopoverDetailViewController.xib */; };
-		8A8D0C8919C9A034009E3448 /* AVKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */; };
-		8A8D0C8A19C9A034009E3448 /* MotionBlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC233719A22CA500218191 /* MotionBlurViewController.xib */; };
-		8A8D0C8B19C9A034009E3448 /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7DA19A19A0300E0C6EB /* TouchIDViewController.xib */; };
-		8A8D0C8C19C9A034009E3448 /* CustomFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7E819A1A57F00E0C6EB /* CustomFiltersViewController.xib */; };
-		8A8D0C8D19C9A034009E3448 /* AddedFonts8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244F19BCFD030005B633 /* AddedFonts8.plist */; };
-		8A8D0C8E19C9A034009E3448 /* ImageFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7C219A1999600E0C6EB /* ImageFiltersViewController.xib */; };
-		8A8D0C9019C9A034009E3448 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2C5EE19C5418F0001BC6A /* PopoverViewController.xib */; };
-		8A8D0C9119C9A034009E3448 /* bgm_5.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A619B2F2ED00290399 /* bgm_5.aif */; };
-		8A8D0C9219C9A034009E3448 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
-		8A8D0C9319C9A034009E3448 /* bgm_3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A519B2F2ED00290399 /* bgm_3.aif */; };
-		8A8D0C9419C9A034009E3448 /* HistogramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7BF19A1999600E0C6EB /* HistogramViewController.xib */; };
-		8A8D0C9519C9A034009E3448 /* bgm_2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A419B2F2ED00290399 /* bgm_2.aif */; };
-		8A8D0C9619C9A034009E3448 /* MonsterImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7EF19A1B8E900E0C6EB /* MonsterImages.xcassets */; };
-		8A8D0C9719C9A034009E3448 /* HealthKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D419A199D400E0C6EB /* HealthKitViewController.xib */; };
-		8A8D0C9819C9A034009E3448 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
-		8A8D0C9A19C9A034009E3448 /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244519BCD85F0005B633 /* entitlements.plist */; };
-		8A8D0C9C19C9A034009E3448 /* AudioEngineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1C2D219AAD0A300B847D0 /* AudioEngineViewController.xib */; };
-		8A8D0C9D19C9A034009E3448 /* WebKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC232C19A2181800218191 /* WebKitViewController.xib */; };
-		8A8D0C9E19C9A034009E3448 /* bgm8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A319B2F2ED00290399 /* bgm8.wav */; };
-		8A8D0C9F19C9A034009E3448 /* SwapRedAndGreen.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEF19C99A8A009E3448 /* SwapRedAndGreen.cikernel */; };
-		8A8D0CA019C9A034009E3448 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */; };
-		8A8D0CA119C9A034009E3448 /* mh2_09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A819B2F2ED00290399 /* mh2_09.wav */; };
-		8A8D0CA219C9A034009E3448 /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
-		8A8D0CA319C9A034009E3448 /* VisualEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC233D19A230E300218191 /* VisualEffectsViewController.xib */; };
-		8A8D0CA419C9A034009E3448 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB959AC19A38478008EE97F /* AlertViewController.xib */; };
-		8A8D0CA519C9A034009E3448 /* mh2_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A719B2F2ED00290399 /* mh2_03.wav */; };
-		8A8D0CAC19C9A122009E3448 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAB19C9A122009E3448 /* HomeKit.framework */; };
 		8A8D0CAD19C9A129009E3448 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAB19C9A122009E3448 /* HomeKit.framework */; };
 		8A8D0CAF19C9A161009E3448 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAE19C9A161009E3448 /* HealthKit.framework */; };
-		8A8D0CB119C9A193009E3448 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAE19C9A161009E3448 /* HealthKit.framework */; };
 		8A8D0CB519C9A5BA009E3448 /* MetalUniformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB319C9A5BA009E3448 /* MetalUniformViewController.m */; };
 		8A8D0CB619C9A5BA009E3448 /* MetalUniformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB419C9A5BA009E3448 /* MetalUniformViewController.xib */; };
 		8A8D0CBB19C9A91E009E3448 /* TTMMetalRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CBA19C9A91E009E3448 /* TTMMetalRenderer.mm */; };
-		8A8D0CBC19C9AD99009E3448 /* MetalUniformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB319C9A5BA009E3448 /* MetalUniformViewController.m */; };
-		8A8D0CBD19C9ADB3009E3448 /* MetalUniformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB419C9A5BA009E3448 /* MetalUniformViewController.xib */; };
-		8A8D0CBE19C9ADD5009E3448 /* TTMMetalRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CBA19C9A91E009E3448 /* TTMMetalRenderer.mm */; };
 		8A8D0CC119C9AF6F009E3448 /* MetalBasicRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CC019C9AF6F009E3448 /* MetalBasicRenderer.mm */; };
 		8A8D0CCC19C9B13E009E3448 /* AAPLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CC619C9B13E009E3448 /* AAPLView.mm */; };
 		8A8D0CCD19C9B13E009E3448 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CCA19C9B13E009E3448 /* AAPLTransforms.mm */; };
@@ -121,25 +39,15 @@
 		8A8D0CD119C9B163009E3448 /* MetalUniformStreamRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CD019C9B163009E3448 /* MetalUniformStreamRenderer.mm */; };
 		8A8D0CE119C9B1CF009E3448 /* AAPLCube.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CD519C9B1CF009E3448 /* AAPLCube.mm */; };
 		8A8D0CE319C9B1CF009E3448 /* AAPLPlasmaParams.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CD719C9B1CF009E3448 /* AAPLPlasmaParams.mm */; };
-		8A8D0CE419C9B1CF009E3448 /* AAPLPlasmaParams.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CD719C9B1CF009E3448 /* AAPLPlasmaParams.mm */; };
 		8A8D0CE519C9B1CF009E3448 /* AAPLPlasmaUniforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CDA19C9B1CF009E3448 /* AAPLPlasmaUniforms.mm */; };
 		8A8D0CE919C9B1CF009E3448 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CDE19C9B1CF009E3448 /* AAPLTransforms.mm */; };
-		8A8D0CEA19C9B1CF009E3448 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CDE19C9B1CF009E3448 /* AAPLTransforms.mm */; };
 		8A8D0CEB19C9B1CF009E3448 /* plasma.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CE019C9B1CF009E3448 /* plasma.metal */; };
-		8A8D0CED19C9B1D6009E3448 /* AAPLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CC619C9B13E009E3448 /* AAPLView.mm */; };
-		8A8D0CEE19C9B1DF009E3448 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CCA19C9B13E009E3448 /* AAPLTransforms.mm */; };
 		8A8D0CF219C9CA45009E3448 /* SceneKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF019C9CA44009E3448 /* SceneKitViewController.m */; };
-		8A8D0CF319C9CA45009E3448 /* SceneKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF019C9CA44009E3448 /* SceneKitViewController.m */; };
 		8A8D0CF419C9CA45009E3448 /* SceneKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF119C9CA44009E3448 /* SceneKitViewController.xib */; };
-		8A8D0CF519C9CA45009E3448 /* SceneKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF119C9CA44009E3448 /* SceneKitViewController.xib */; };
 		8A8D0CFC19C9CF0D009E3448 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF919C9CF0D009E3448 /* wood.png */; };
-		8A8D0CFD19C9CF0D009E3448 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF919C9CF0D009E3448 /* wood.png */; };
 		8A8D0CFF19C9CF7D009E3448 /* SamplerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CFE19C9CF7D009E3448 /* SamplerIcon.png */; };
-		8A8D0D0019C9CF7D009E3448 /* SamplerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CFE19C9CF7D009E3448 /* SamplerIcon.png */; };
 		8A8D0D0419C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0219C9D6B8009E3448 /* BrowseCodeViewController.m */; };
-		8A8D0D0519C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0219C9D6B8009E3448 /* BrowseCodeViewController.m */; };
 		8A8D0D0619C9D6B8009E3448 /* BrowseCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0319C9D6B8009E3448 /* BrowseCodeViewController.xib */; };
-		8A8D0D0719C9D6B8009E3448 /* BrowseCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0319C9D6B8009E3448 /* BrowseCodeViewController.xib */; };
 		8A8D243E19BCD21C0005B633 /* TTMHistogramHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D243D19BCD21C0005B633 /* TTMHistogramHelper.m */; };
 		8A8D244119BCD22E0005B633 /* TTMAudioUnitEffectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244019BCD22E0005B633 /* TTMAudioUnitEffectHelper.m */; };
 		8A8D244419BCD3020005B633 /* TTMHealthKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244319BCD3020005B633 /* TTMHealthKitHelper.m */; };
@@ -161,7 +69,7 @@
 		8A95410719A20563008C6F07 /* SourceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410619A20563008C6F07 /* SourceOver.m */; };
 		8A95410E19A2074A008C6F07 /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
 		8A95411119A20CF8008C6F07 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
-		8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8A98076D1BA66E5900C15BF2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A98076C1BA66E5900C15BF2 /* Launch Screen.storyboard */; };
 		8A9BA65C19C96F790015DEFB /* MetalBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */; };
 		8A9BA65D19C96F790015DEFB /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
 		8AA4B9F719A175F4006BC800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F619A175F4006BC800 /* main.m */; };
@@ -185,13 +93,8 @@
 		8AB959B219A38D83008EE97F /* UIAlertController+TTMAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959B119A38D83008EE97F /* UIAlertController+TTMAppearance.m */; };
 		8AB959E819A398F4008EE97F /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959E719A398F4008EE97F /* AlertViewController.m */; };
 		8ABBB65C19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
-		8ABBB65D19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
-		8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
-		8ABBB65F19CBA7D400F44D89 /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
 		8AC6099C1A24A0DC0095796F /* SeparatorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */; };
 		8AC6099D1A24A0DC0095796F /* SeparatorEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */; };
-		8AC6099F1A24A0F00095796F /* SeparatorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */; };
-		8AC609A01A24A0F00095796F /* SeparatorEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */; };
 		8AD104BF19CB99BA00C30A3D /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
 		8AD104C019CB99BA00C30A3D /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
 		8AE7B7B519A1981E00E0C6EB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */; };
@@ -240,7 +143,6 @@
 		8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SourceOver.cikernel; sourceTree = "<group>"; };
 		8A8D0BEF19C99A8A009E3448 /* SwapRedAndGreen.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwapRedAndGreen.cikernel; sourceTree = "<group>"; };
 		8A8D0BF019C99A8A009E3448 /* Vignette.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vignette.cikernel; sourceTree = "<group>"; };
-		8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SamplerSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8D0CAB19C9A122009E3448 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		8A8D0CAE19C9A161009E3448 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		8A8D0CB219C9A5BA009E3448 /* MetalUniformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalUniformViewController.h; sourceTree = "<group>"; };
@@ -383,15 +285,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A8D0C7D19C9A034009E3448 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A8D0CB119C9A193009E3448 /* HealthKit.framework in Frameworks */,
-				8A8D0CAC19C9A122009E3448 /* HomeKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AA4B9EE19A175F4006BC800 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -669,7 +562,6 @@
 			isa = PBXGroup;
 			children = (
 				8AA4B9F119A175F4006BC800 /* iOS8Sampler.app */,
-				8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -973,23 +865,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A8D0C5219C9A034009E3448 /* iOS8SamplerSimulator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A8D0CA619C9A034009E3448 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator" */;
-			buildPhases = (
-				8A8D0C5319C9A034009E3448 /* Sources */,
-				8A8D0C7D19C9A034009E3448 /* Frameworks */,
-				8A8D0C7E19C9A034009E3448 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iOS8SamplerSimulator;
-			productName = iOS8Sampler;
-			productReference = 8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */;
-			productType = "com.apple.product-type.application";
-		};
 		8AA4B9F019A175F4006BC800 /* iOS8Sampler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA4BA1419A175F5006BC800 /* Build configuration list for PBXNativeTarget "iOS8Sampler" */;
@@ -1017,14 +892,6 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
 				TargetAttributes = {
-					8A8D0C5219C9A034009E3448 = {
-						DevelopmentTeam = 9Z86A4AWDE;
-						SystemCapabilities = {
-							com.apple.HomeKit = {
-								enabled = 1;
-							};
-						};
-					};
 					8AA4B9F019A175F4006BC800 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 9Z86A4AWDE;
@@ -1050,65 +917,11 @@
 			projectRoot = "";
 			targets = (
 				8AA4B9F019A175F4006BC800 /* iOS8Sampler */,
-				8A8D0C5219C9A034009E3448 /* iOS8SamplerSimulator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A8D0C7E19C9A034009E3448 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A8D0CBD19C9ADB3009E3448 /* MetalUniformViewController.xib in Resources */,
-				8A8D0C7F19C9A034009E3448 /* Vignette.cikernel in Resources */,
-				8A4FB83C19D2442F00375981 /* AltimeterViewController.xib in Resources */,
-				8A8D0C8019C9A034009E3448 /* PedometerViewController.xib in Resources */,
-				8A8D0C8119C9A034009E3448 /* AnamorphicStretch.cikernel in Resources */,
-				8A8D0C8219C9A034009E3448 /* MirrorX.cikernel in Resources */,
-				8A8D0C8319C9A034009E3448 /* Images.xcassets in Resources */,
-				8A8D0C8419C9A034009E3448 /* FontsViewController.xib in Resources */,
-				8A8D0C8519C9A034009E3448 /* CodeGeneratorViewController.xib in Resources */,
-				8A8D0C8619C9A034009E3448 /* Main.storyboard in Resources */,
-				8A8D0C8719C9A034009E3448 /* AccordionFoldTransitionViewController.xib in Resources */,
-				8A8D0CFD19C9CF0D009E3448 /* wood.png in Resources */,
-				8A8D0C8819C9A034009E3448 /* PopoverDetailViewController.xib in Resources */,
-				8A8D0C8919C9A034009E3448 /* AVKitViewController.xib in Resources */,
-				8A8D0C8A19C9A034009E3448 /* MotionBlurViewController.xib in Resources */,
-				8A8D0C8B19C9A034009E3448 /* TouchIDViewController.xib in Resources */,
-				8A8D0C8C19C9A034009E3448 /* CustomFiltersViewController.xib in Resources */,
-				8A8D0C8D19C9A034009E3448 /* AddedFonts8.plist in Resources */,
-				8A8D0C8E19C9A034009E3448 /* ImageFiltersViewController.xib in Resources */,
-				8A8D0C9019C9A034009E3448 /* PopoverViewController.xib in Resources */,
-				8AC609A01A24A0F00095796F /* SeparatorEffectViewController.xib in Resources */,
-				8A8D0C9119C9A034009E3448 /* bgm_5.aif in Resources */,
-				8A8D0C9219C9A034009E3448 /* SourceOver.cikernel in Resources */,
-				8A8D0C9319C9A034009E3448 /* bgm_3.aif in Resources */,
-				8A8D0C9419C9A034009E3448 /* HistogramViewController.xib in Resources */,
-				8A8D0C9519C9A034009E3448 /* bgm_2.aif in Resources */,
-				8A8D0C9619C9A034009E3448 /* MonsterImages.xcassets in Resources */,
-				8A8D0C9719C9A034009E3448 /* HealthKitViewController.xib in Resources */,
-				8A8D0CF519C9CA45009E3448 /* SceneKitViewController.xib in Resources */,
-				8A8D0C9819C9A034009E3448 /* UserNotificationViewController.xib in Resources */,
-				8A8D0D0719C9D6B8009E3448 /* BrowseCodeViewController.xib in Resources */,
-				8A8D0C9A19C9A034009E3448 /* entitlements.plist in Resources */,
-				8A60FE6F1A24972C006D76D9 /* RowActionViewController.xib in Resources */,
-				8A8D0D0019C9CF7D009E3448 /* SamplerIcon.png in Resources */,
-				8A8D0C9C19C9A034009E3448 /* AudioEngineViewController.xib in Resources */,
-				8A8D0C9D19C9A034009E3448 /* WebKitViewController.xib in Resources */,
-				8A8D0C9E19C9A034009E3448 /* bgm8.wav in Resources */,
-				8A8D0C9F19C9A034009E3448 /* SwapRedAndGreen.cikernel in Resources */,
-				8A8D0CA019C9A034009E3448 /* SVProgressHUD.bundle in Resources */,
-				8ABBB65F19CBA7D400F44D89 /* RubyAnnotationViewController.xib in Resources */,
-				8A8D0CA119C9A034009E3448 /* mh2_09.wav in Resources */,
-				8A8D0CA219C9A034009E3448 /* MetalBasicViewController.xib in Resources */,
-				8A8D0CA319C9A034009E3448 /* VisualEffectsViewController.xib in Resources */,
-				8A7B17271A94B2EA002EA528 /* TouchRadiusViewController.xib in Resources */,
-				8A8D0CA419C9A034009E3448 /* AlertViewController.xib in Resources */,
-				8A8D0CA519C9A034009E3448 /* mh2_03.wav in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AA4B9EF19A175F4006BC800 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1166,62 +979,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A8D0C5319C9A034009E3448 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A8D0C5519C9A034009E3448 /* WebKitViewController.m in Sources */,
-				8A8D0C5619C9A034009E3448 /* HealthKitViewController.m in Sources */,
-				8A8D0C5719C9A034009E3448 /* CustomFiltersViewController.m in Sources */,
-				8A60FE701A24972F006D76D9 /* RowActionViewController.m in Sources */,
-				8A7B17261A94B2EA002EA528 /* TouchRadiusViewController.swift in Sources */,
-				8A8D0C5819C9A034009E3448 /* UIView+TTMGeometry.m in Sources */,
-				8A8D0C5919C9A034009E3448 /* TTMHealthKitHelper.m in Sources */,
-				8A8D0C5A19C9A034009E3448 /* SVProgressHUD.m in Sources */,
-				8A8D0C5B19C9A034009E3448 /* ImageFiltersViewController.m in Sources */,
-				8A8D0C5C19C9A034009E3448 /* Vignette.m in Sources */,
-				8A8D0C5D19C9A034009E3448 /* AppDelegate.m in Sources */,
-				8A8D0C5E19C9A034009E3448 /* SwapRedAndGreen.m in Sources */,
-				8A8D0CBE19C9ADD5009E3448 /* TTMMetalRenderer.mm in Sources */,
-				8A8D0CED19C9B1D6009E3448 /* AAPLView.mm in Sources */,
-				8A8D0C5F19C9A034009E3448 /* MasterViewController.m in Sources */,
-				8A8D0CEE19C9B1DF009E3448 /* AAPLTransforms.mm in Sources */,
-				8A8D0C6219C9A034009E3448 /* MotionBlurViewController.m in Sources */,
-				8A8D0C6319C9A034009E3448 /* PopoverViewController.m in Sources */,
-				8A8D0CBC19C9AD99009E3448 /* MetalUniformViewController.m in Sources */,
-				8A8D0D0519C9D6B8009E3448 /* BrowseCodeViewController.m in Sources */,
-				8A8D0C6619C9A034009E3448 /* AVKitViewController.m in Sources */,
-				8A8D0C6719C9A034009E3448 /* MirrorX.m in Sources */,
-				8A8D0C6819C9A034009E3448 /* AnamorphicStretch.m in Sources */,
-				8A8D0C6919C9A034009E3448 /* FontsViewController.m in Sources */,
-				8A8D0C6A19C9A034009E3448 /* main.m in Sources */,
-				8A8D0C6B19C9A034009E3448 /* HistogramViewController.m in Sources */,
-				8A8D0C6C19C9A034009E3448 /* AccordionFoldTransitionViewController.m in Sources */,
-				8A4FB83A19D2442F00375981 /* AltimeterViewController.m in Sources */,
-				8A8D0C6D19C9A034009E3448 /* TouchIDViewController.m in Sources */,
-				8A8D0C6E19C9A034009E3448 /* TTMHistogramHelper.m in Sources */,
-				8A8D0C7019C9A034009E3448 /* UserNotificationViewController.m in Sources */,
-				8A8D0C7219C9A034009E3448 /* CommonButton.m in Sources */,
-				8A8D0C7319C9A034009E3448 /* PopoverDetailViewController.m in Sources */,
-				8A8D0C7419C9A034009E3448 /* VisualEffectsViewController.m in Sources */,
-				8A8D0CEA19C9B1CF009E3448 /* AAPLTransforms.mm in Sources */,
-				8ABBB65D19CBA48800F44D89 /* RubyAnnotationLabel.m in Sources */,
-				8A8D0C7519C9A034009E3448 /* TTMAudioUnitEffectHelper.m in Sources */,
-				8A8D0C7619C9A034009E3448 /* SourceOver.m in Sources */,
-				8A8D0C7719C9A034009E3448 /* MetalBasicViewController.m in Sources */,
-				8A8D0C7819C9A034009E3448 /* CodeGeneratorViewController.m in Sources */,
-				8A7B17251A94B2DF002EA528 /* PulsingHaloLayer.m in Sources */,
-				8A8D0CF319C9CA45009E3448 /* SceneKitViewController.m in Sources */,
-				8A8D0C7919C9A034009E3448 /* UIAlertController+TTMAppearance.m in Sources */,
-				8ABBB65E19CBA7CF00F44D89 /* RubyAnnotationViewController.m in Sources */,
-				8AC6099F1A24A0F00095796F /* SeparatorEffectViewController.m in Sources */,
-				8A8D0C7A19C9A034009E3448 /* PedometerViewController.m in Sources */,
-				8A8D0C7B19C9A034009E3448 /* AudioEngineViewController.m in Sources */,
-				8A8D0C7C19C9A034009E3448 /* AlertViewController.m in Sources */,
-				8A8D0CE419C9B1CF009E3448 /* AAPLPlasmaParams.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AA4B9ED19A175F4006BC800 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1299,37 +1056,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8A8D0CA719C9A034009E3448 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
-				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
-				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
-				PRODUCT_NAME = iOS8SamplerSimulator;
-				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		8A8D0CA819C9A034009E3448 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
-				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
-				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.iOS8Sampler;
-				PRODUCT_NAME = iOS8SamplerSimulator;
-				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
-			};
-			name = Release;
-		};
 		8AA4BA1219A175F5006BC800 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1447,15 +1173,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A8D0CA619C9A034009E3448 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A8D0CA719C9A034009E3448 /* Debug */,
-				8A8D0CA819C9A034009E3448 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8AA4B9EC19A175F4006BC800 /* Build configuration list for PBXProject "iOS8Sampler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

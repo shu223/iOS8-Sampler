@@ -13,16 +13,6 @@ Code examples for the new features of iOS 8.
 JUST BUILD basically, however please note below:
 
 
-###Schemes
-
-- Use "iOS8Sampler" Scheme for DEVICES.
-- Use "iOS8SamplerSimulator" Scheme for SIMULATORS
-
-This is because Metal can't be compiled for Simulators. When you have build error, try to delete the Derived Data: 
-
-`/Users/shuichi/Library/Developer/Xcode/DerivedData/iOS8Sampler-{xxxxxxxxxx}`
-
-
 ###Provisioning Profile
 
 When try the HealthKit or HomeKit examples, you have to use a provisioning profile for which HealthKit or HomeKit are enabled.
