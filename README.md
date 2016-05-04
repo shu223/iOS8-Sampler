@@ -3,6 +3,10 @@
 iOS8-Sampler
 ============
 
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+)](http://mit-license.org)
+[![Twitter](https://img.shields.io/badge/twitter-@shu223-blue.svg?style=flat)](http://twitter.com/shu223)
+
 Code examples for the new features of iOS 8.
 
 <img src="http://f.cl.ly/items/2m0W310X0f0J2Z0b0o2r/top.jpg" width="240">
@@ -187,12 +191,16 @@ Transitions from one image to another by folding like accordion. However it does
 
 ##Author
 
-Shuichi Tsutsumi
+**Shuichi Tsutsumi**
 
-- [Twitter](https://twitter.com/shu223)
-- [Facebook](https://www.facebook.com/shuichi.tsutsumi)
-- [LinkedIn](https://www.linkedin.com/profile/view?id=214896557)
-- [Blog (Japanese)](http://d.hatena.ne.jp/shu223/)
+iOS freelancer in Japan. Welcome works from abroad!
+
+- PAST WORKS:  [My Profile Summary](https://medium.com/@shu223/my-profile-summary-f14bfc1e7099#.vdh0i7clr)
+- PROFILES: [LinkedIn](https://www.linkedin.com/profile/view?id=214896557)
+- BLOG: [English](https://medium.com/@shu223/) / [Japanese](http://d.hatena.ne.jp/shu223/)
+- CONTACTS:
+  - [Twitter](https://twitter.com/shu223)
+  - [Facebook](https://www.facebook.com/shuichi.tsutsumi)
 
 
 ##Special Thanks
