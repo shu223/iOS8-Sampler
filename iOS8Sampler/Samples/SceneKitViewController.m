@@ -14,38 +14,31 @@
 @import SpriteKit;
 
 
-#define LOGO_SIZE 30
+#define kLogoSize 30
+#define kLogoPositionZ 1000
 
 
 @interface SceneKitViewController ()
-//<SCNSceneRendererDelegate>
+@property (nonatomic, strong) SCNNode *childNode;
 @end
 
 
 @implementation SceneKitViewController
 {
 @private
-    
-    //scene
-    SCNScene *_scene;
-    
     //references to nodes for manipulation
     SCNNode *_cameraHandle;
     SCNNode *_cameraOrientation;
     SCNNode *_cameraNode;
     SCNNode *_spotLightParentNode;
     SCNNode *_spotLightNode;
-    SCNNode *_floorNode;
-    SCNNode *_logoNode;
-    
-    SCNNode *_introNodeGroup;
 }
 
 - (void)viewDidLoad {
 
     [super viewDidLoad];
 
-    [self setup];
+    [self setupSceneView];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -73,46 +66,40 @@
 // =============================================================================
 #pragma mark - Private
 
-- (void)setup
+- (void)setupSceneView
 {
     SCNView *sceneView = (SCNView *)self.view;
     
+    //setup the scene & present it
+    sceneView.scene = [self setupScene];
+    
     sceneView.backgroundColor = [SKColor blackColor];
-    
-    //setup the scene
-    [self setupScene];
-    
-    //present it
-    sceneView.scene = _scene;
-    
-    //tweak physics
-    sceneView.scene.physicsWorld.speed = 2.0;
-    
     sceneView.jitteringEnabled = YES;
     
     //initial point of view
     sceneView.pointOfView = _cameraNode;
 }
 
-- (void)setupScene
+- (SCNScene *)setupScene
 {
-    _scene = [SCNScene scene];
+    SCNScene *scene = [SCNScene scene];
     
     // setup emvironments
-    [self setupCamera];
+    [self setupCameraForScene:scene];
     [self setupSpotLight];
-    [self setupFloor];
+    [self setupFloorForScene:scene];
     
     // configure the lighting for the introduction (dark lighting)
     _spotLightNode.light.color = [SKColor blackColor];
     _spotLightNode.position = SCNVector3Make(50, 90, -50);
     _spotLightNode.eulerAngles = SCNVector3Make(-M_PI_2*0.75, M_PI_4*0.5, 0);
-
     
-    [self setupLogo];
+    [self createChildNodeForScene:scene];
+    
+    return scene;
 }
 
-- (void) setupCamera
+- (void)setupCameraForScene:(SCNScene *)scene
 {
     // |_   cameraHandle
     //   |_   cameraOrientation
@@ -128,13 +115,16 @@
     
     _cameraOrientation = [SCNNode node];
     
-    [_scene.rootNode addChildNode:_cameraHandle];
+    [scene.rootNode addChildNode:_cameraHandle];
     [_cameraHandle addChildNode:_cameraOrientation];
     [_cameraOrientation addChildNode:_cameraNode];
     
     _cameraNode.camera = [SCNCamera camera];
     _cameraNode.camera.zFar = 800;
     _cameraNode.camera.yFov = 55;
+
+    _cameraNode.position = SCNVector3Make(200, -20, kLogoPositionZ+150);
+    _cameraNode.eulerAngles = SCNVector3Make(-M_PI_2*0.06, 0, 0);
 }
 
 //add a key light to the scene
@@ -161,45 +151,35 @@
     [_spotLightParentNode addChildNode:_spotLightNode];
 }
 
-- (void)setupFloor {
+- (void)setupFloorForScene:(SCNScene *)scene {
 
     SCNFloor *floor = [SCNFloor floor];
     floor.reflectionFalloffEnd = 0;
     floor.reflectivity = 0;
     
-    _floorNode = [SCNNode node];
-    _floorNode.geometry = floor;
-    _floorNode.geometry.firstMaterial.diffuse.contents = @"wood.png";
-    _floorNode.geometry.firstMaterial.locksAmbientWithDiffuse = YES;
-    _floorNode.geometry.firstMaterial.diffuse.wrapS = SCNWrapModeRepeat;
-    _floorNode.geometry.firstMaterial.diffuse.wrapT = SCNWrapModeRepeat;
-    _floorNode.geometry.firstMaterial.diffuse.mipFilter = SCNFilterModeLinear;
+    SCNNode *floorNode = [SCNNode node];
+    floorNode.geometry = floor;
+    floorNode.geometry.firstMaterial.diffuse.contents = @"wood.png";
+    floorNode.geometry.firstMaterial.locksAmbientWithDiffuse = YES;
+    floorNode.geometry.firstMaterial.diffuse.wrapS = SCNWrapModeRepeat;
+    floorNode.geometry.firstMaterial.diffuse.wrapT = SCNWrapModeRepeat;
+    floorNode.geometry.firstMaterial.diffuse.mipFilter = SCNFilterModeLinear;
     
-    _floorNode.physicsBody = [SCNPhysicsBody staticBody];
-    _floorNode.physicsBody.restitution = 1.0;
-    
-    [_scene.rootNode addChildNode:_floorNode];
+    [scene.rootNode addChildNode:floorNode];
 }
 
-- (void)setupLogo
+- (void)createChildNodeForScene:(SCNScene *)scene
 {
-    //put all texts under this node to remove all at once later
-    _introNodeGroup = [SCNNode node];
+    SCNNode *childNode = [SCNNode nodeWithGeometry:[SCNPlane planeWithWidth:kLogoSize height:kLogoSize]];
+    childNode.geometry.firstMaterial.diffuse.contents = @"SamplerIcon.png";
+    childNode.geometry.firstMaterial.emission.contents = @"SamplerIcon.png";
+    childNode.geometry.firstMaterial.emission.intensity = 0;
     
-    _logoNode = [SCNNode nodeWithGeometry:[SCNPlane planeWithWidth:LOGO_SIZE height:LOGO_SIZE]];
-    _logoNode.geometry.firstMaterial.diffuse.contents = @"SamplerIcon.png";
-    _logoNode.geometry.firstMaterial.emission.contents = @"SamplerIcon.png";
-    _logoNode.geometry.firstMaterial.emission.intensity = 0;
+    childNode.position = SCNVector3Make(200, kLogoSize/2, kLogoPositionZ);
     
-    [_introNodeGroup addChildNode:_logoNode];
-    _logoNode.position = SCNVector3Make(200, LOGO_SIZE/2, 1000);
+    [scene.rootNode addChildNode:childNode];
     
-    SCNVector3 position = SCNVector3Make(200, 0, 1000);
-    
-    _cameraNode.position = SCNVector3Make(200, -20, position.z+150);
-    _cameraNode.eulerAngles = SCNVector3Make(-M_PI_2*0.06, 0, 0);
-    
-    [_scene.rootNode addChildNode:_introNodeGroup];
+    self.childNode = childNode;
 }
 
 //wait, then fade in light
@@ -212,7 +192,7 @@
         [SCNTransaction setAnimationDuration:2.5];
         
         _spotLightNode.light.color = [SKColor colorWithWhite:1 alpha:1];
-        _logoNode.geometry.firstMaterial.emission.intensity = 0.75;
+        self.childNode.geometry.firstMaterial.emission.intensity = 0.75;
         
         [SCNTransaction commit];
     }];
