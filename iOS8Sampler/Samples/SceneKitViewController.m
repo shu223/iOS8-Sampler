@@ -20,6 +20,7 @@
 
 @interface SceneKitViewController ()
 @property (nonatomic, strong) SCNNode *childNode;
+@property (nonatomic, strong) SCNNode *spotLightNode;
 @end
 
 
@@ -30,8 +31,6 @@
     SCNNode *_cameraHandle;
     SCNNode *_cameraOrientation;
     SCNNode *_cameraNode;
-    SCNNode *_spotLightParentNode;
-    SCNNode *_spotLightNode;
 }
 
 - (void)viewDidLoad {
@@ -130,10 +129,8 @@
 //add a key light to the scene
 - (void)setupSpotLight {
 
-    _spotLightParentNode = [SCNNode node];
-    _spotLightParentNode.position = SCNVector3Make(0, 90, 20);
-    
-    _spotLightNode = [SCNNode node];
+    self.spotLightNode = [SCNNode node];
+    _spotLightNode.position = SCNVector3Make(0, 90, 20);
     _spotLightNode.rotation = SCNVector4Make(1,0,0,-M_PI_4);
     
     _spotLightNode.light = [SCNLight light];
@@ -147,8 +144,7 @@
     _spotLightNode.light.spotInnerAngle = 15;
     _spotLightNode.light.spotOuterAngle = 70;
     
-    [_cameraNode addChildNode:_spotLightParentNode];
-    [_spotLightParentNode addChildNode:_spotLightNode];
+    [_cameraNode addChildNode:_spotLightNode];
 }
 
 - (void)setupFloorForScene:(SCNScene *)scene {
