@@ -34,7 +34,7 @@ Distortion and Delay effect for audio using AVAudioEngine.
                    
 ###New Image Filters
 
-New filters of CIFilter such as CIGrassDistortion, CIDivideBlendMode, etc...
+New filters of CIFilter such as CIGlassDistortion, CIDivideBlendMode, etc...
 
 <img src="ResourcesForREADME/coreimage.jpg" width="200">
 
