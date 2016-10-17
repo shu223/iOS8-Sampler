@@ -37,7 +37,14 @@
 
     [super viewDidLoad];
 
-    [self setupSceneView];
+    SCNView *sceneView = (SCNView *)self.view;
+    
+    //setup the scene & present it
+    sceneView.scene = [self setupScene];
+    sceneView.backgroundColor = [SKColor blackColor];
+    
+    //initial point of view
+    sceneView.pointOfView = _cameraNode;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -51,33 +58,9 @@
     [super didReceiveMemoryWarning];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 
 // =============================================================================
 #pragma mark - Private
-
-- (void)setupSceneView
-{
-    SCNView *sceneView = (SCNView *)self.view;
-    
-    //setup the scene & present it
-    sceneView.scene = [self setupScene];
-    
-    sceneView.backgroundColor = [SKColor blackColor];
-    sceneView.jitteringEnabled = YES;
-    
-    //initial point of view
-    sceneView.pointOfView = _cameraNode;
-}
 
 - (SCNScene *)setupScene
 {
@@ -88,11 +71,6 @@
     [self setupSpotLight];
     [self setupFloorForScene:scene];
     
-    // configure the lighting for the introduction (dark lighting)
-    _spotLightNode.light.color = [SKColor blackColor];
-    _spotLightNode.position = SCNVector3Make(50, 90, -50);
-    _spotLightNode.eulerAngles = SCNVector3Make(-M_PI_2*0.75, M_PI_4*0.5, 0);
-    
     [self createChildNodeForScene:scene];
     
     return scene;
@@ -100,42 +78,36 @@
 
 - (void)setupCameraForScene:(SCNScene *)scene
 {
-    // |_   cameraHandle
-    //   |_   cameraOrientation
-    //     |_   cameraNode
-    
     //create a main camera
     _cameraNode = [SCNNode node];
-    _cameraNode.position = SCNVector3Make(0, 0, 120);
-    
+    _cameraNode.camera = [SCNCamera camera];
+    _cameraNode.camera.zFar = 800;
+    _cameraNode.camera.yFov = 55;
+    _cameraNode.position = SCNVector3Make(200, -20, kLogoPositionZ+150);
+    _cameraNode.eulerAngles = SCNVector3Make(-M_PI_2*0.06, 0, 0);
+
     //create a node to manipulate the camera orientation
     _cameraHandle = [SCNNode node];
     _cameraHandle.position = SCNVector3Make(0, 60, 0);
     
     _cameraOrientation = [SCNNode node];
     
+    // |_   cameraHandle
+    //   |_   cameraOrientation
+    //     |_   cameraNode
     [scene.rootNode addChildNode:_cameraHandle];
     [_cameraHandle addChildNode:_cameraOrientation];
     [_cameraOrientation addChildNode:_cameraNode];
-    
-    _cameraNode.camera = [SCNCamera camera];
-    _cameraNode.camera.zFar = 800;
-    _cameraNode.camera.yFov = 55;
-
-    _cameraNode.position = SCNVector3Make(200, -20, kLogoPositionZ+150);
-    _cameraNode.eulerAngles = SCNVector3Make(-M_PI_2*0.06, 0, 0);
 }
 
 //add a key light to the scene
 - (void)setupSpotLight {
 
     self.spotLightNode = [SCNNode node];
-    _spotLightNode.position = SCNVector3Make(0, 90, 20);
     _spotLightNode.rotation = SCNVector4Make(1,0,0,-M_PI_4);
     
     _spotLightNode.light = [SCNLight light];
     _spotLightNode.light.type = SCNLightTypeSpot;
-    _spotLightNode.light.color = [SKColor colorWithWhite:1.0 alpha:1.0];
     _spotLightNode.light.castsShadow = YES;
     _spotLightNode.light.shadowColor = [SKColor colorWithWhite:0 alpha:0.5];
     _spotLightNode.light.zNear = 30;
@@ -144,6 +116,11 @@
     _spotLightNode.light.spotInnerAngle = 15;
     _spotLightNode.light.spotOuterAngle = 70;
     
+    // configure the lighting for the introduction (dark lighting)
+    _spotLightNode.light.color = [SKColor blackColor];
+    _spotLightNode.position = SCNVector3Make(50, 90, -50);
+    _spotLightNode.eulerAngles = SCNVector3Make(-M_PI_2*0.75, M_PI_4*0.5, 0);
+
     [_cameraNode addChildNode:_spotLightNode];
 }
 
