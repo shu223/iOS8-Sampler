@@ -55,6 +55,7 @@ class TouchRadiusViewController: UIViewController {
         halo.keyTimeForHalfOpacity = 0.7
         halo.animationDuration = 0.8
         self.view.layer.addSublayer(halo)
+        halo.start()
     }
     
     

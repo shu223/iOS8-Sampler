@@ -12,16 +12,62 @@
 #import <QuartzCore/QuartzCore.h>
 
 
-@interface PulsingHaloLayer : CALayer
+@interface PulsingHaloLayer : CAReplicatorLayer
 
-@property (nonatomic, assign) CGFloat radius;                   // default: 60pt
-@property (nonatomic, assign) CGFloat fromValueForRadius;       // default: 0.0
-@property (nonatomic, assign) CGFloat fromValueForAlpha;        // default: 0.45
-@property (nonatomic, assign) CGFloat keyTimeForHalfOpacity;    // default: 0.2 (range: 0 < keyTime < 1)
-@property (nonatomic, assign) NSTimeInterval animationDuration; // default: 3s
-@property (nonatomic, assign) NSTimeInterval pulseInterval;     // default: 0s
-@property (nonatomic, assign) BOOL useTimingFunction;           // default: YES should use timingFunction for animation
+/**
+ *	The default value of this property is @c 60pt.
+ */
+@property (nonatomic, assign) CGFloat radius;
 
-- (id)initWithRepeatCount:(float)repeatCount;
+/**
+ *	The default value of this property is @c 0.0.
+ */
+@property (nonatomic, assign) CGFloat fromValueForRadius;
+
+/**
+ *	The default value of this property is @c 0.45.
+ */
+@property (nonatomic, assign) CGFloat fromValueForAlpha __attribute__ ((unavailable("Now the alpha channel of the backgroundColor is used.")));
+
+/**
+ *	The value of this property should be ranging from @c 0 to @c 1 (exclusive).
+ *
+ *	The default value of this property is @c 0.2.
+ */
+@property (nonatomic, assign) CGFloat keyTimeForHalfOpacity;
+
+/**
+ *	The animation duration in seconds.
+ *
+ *	The default value of this property is @c 3.
+ */
+@property (nonatomic, assign) NSTimeInterval animationDuration;
+
+/**
+ *	The animation interval in seconds.
+ *
+ *	The default value of this property is @c 0.
+ */
+@property (nonatomic, assign) NSTimeInterval pulseInterval;
+
+/**
+ *	The default value of this property is @c YES.
+ */
+@property (nonatomic, assign) BOOL useTimingFunction;
+
+/**
+ *	The default value of this property is @c 1.
+ */
+@property (nonatomic, assign) NSInteger haloLayerNumber;
+
+/**
+ *	The animation delay in seconds.
+ *
+ *	The default value of this property is @c 1.
+ */
+@property (nonatomic, assign) NSTimeInterval startInterval;
+
+
+- (void)start;
 
 @end
