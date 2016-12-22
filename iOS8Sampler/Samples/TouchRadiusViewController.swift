@@ -15,7 +15,7 @@ class TouchRadiusViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: "TouchRadiusViewController", bundle: nil)
     }
     
@@ -45,7 +45,7 @@ class TouchRadiusViewController: UIViewController {
     // =========================================================================
     // MARK: Private
     
-    private func createHaloAt(location: CGPoint, withRadius radius: CGFloat) {
+    fileprivate func createHaloAt(_ location: CGPoint, withRadius radius: CGFloat) {
         
         let halo = PulsingHaloLayer()
         halo.repeatCount = 1
@@ -61,12 +61,12 @@ class TouchRadiusViewController: UIViewController {
     // =========================================================================
     // MARK: Touch Handlers
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         for obj: AnyObject in touches {
             
             let touch = obj as! UITouch
-            let location = touch.locationInView(self.view)
+            let location = touch.location(in: self.view)
             let radius = touch.majorRadius
             
             self.createHaloAt(location, withRadius: radius)
