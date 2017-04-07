@@ -34,10 +34,13 @@
                         </mask>
                     </variation>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dZG-lV-TU6">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dZG-lV-TU6">
                     <rect key="frame" x="0.0" y="44" width="100" height="100"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="S4D-0P-m1B"/>
+                        <constraint firstAttribute="width" constant="100" id="Sm0-Sv-nUb"/>
+                    </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQD-Jt-NPt" customClass="CommonButton">
                     <rect key="frame" x="67.5" y="599" width="240" height="48"/>
@@ -62,7 +65,9 @@
                 <constraint firstItem="wRR-d5-hW3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Dmx-wl-l33"/>
                 <constraint firstAttribute="centerX" secondItem="vQD-Jt-NPt" secondAttribute="centerX" id="JoN-56-oNl"/>
                 <constraint firstAttribute="centerX" secondItem="wRR-d5-hW3" secondAttribute="centerX" id="QPV-Hc-rC8"/>
+                <constraint firstItem="dZG-lV-TU6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="Xb1-or-YFZ"/>
                 <constraint firstAttribute="bottom" secondItem="wRR-d5-hW3" secondAttribute="bottom" id="g2d-01-iKd"/>
+                <constraint firstItem="dZG-lV-TU6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hDg-Vw-wvq"/>
                 <constraint firstItem="wRR-d5-hW3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vm6-3Y-jjR"/>
             </constraints>
             <variation key="default">
