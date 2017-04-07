@@ -24,6 +24,8 @@
 	<true/>
 	<key>NSHealthShareUsageDescription</key>
 	<string>This is NSHealthShareUsageDescription</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This is NSMotionUsageDescription</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
