@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3598D5111FD6E0C700603031 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3598D5121FD6E0C700603031 /* ContentSquare.framework */; };
 		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
@@ -116,6 +117,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3598D5121FD6E0C700603031 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewCell.swift; sourceTree = "<group>"; };
 		8A308E2119BDADB9007C7315 /* UserNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotificationViewController.h; sourceTree = "<group>"; };
 		8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNotificationViewController.m; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3598D5111FD6E0C700603031 /* ContentSquare.framework in Frameworks */,
 				8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */,
 				8A8D0CAF19C9A161009E3448 /* HealthKit.framework in Frameworks */,
 				8A8D0CAD19C9A129009E3448 /* HomeKit.framework in Frameworks */,
@@ -381,6 +384,7 @@
 		8A8D0CB019C9A175009E3448 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3598D5121FD6E0C700603031 /* ContentSquare.framework */,
 				8A40F6B719CA528A005F34A3 /* Metal.framework */,
 				8A8D0CAE19C9A161009E3448 /* HealthKit.framework */,
 				8A8D0CAB19C9A122009E3448 /* HomeKit.framework */,
