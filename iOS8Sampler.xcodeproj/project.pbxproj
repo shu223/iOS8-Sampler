@@ -1163,6 +1163,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../Carthage/Build/iOS";
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1183,6 +1184,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../Carthage/Build/iOS";
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = iOS8Sampler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
