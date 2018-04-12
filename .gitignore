@@ -62,3 +62,5 @@ Carthage/Build
 fastlane/report.xml
 fastlane/screenshots
 contents.xcworkspacedata
+outputs/.DS_Store
+outputs/sample-apps/.DS_Store
