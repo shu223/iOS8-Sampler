@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267B3AA3207F981900050100 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267B3AA2207F981900050100 /* ContentSquare.framework */; };
+		267B3AA4207F981900050100 /* ContentSquare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267B3AA2207F981900050100 /* ContentSquare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A1E8E9C1BA060D700CAA287 /* MasterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
@@ -115,7 +117,22 @@
 		8AE7B7F519A1C4F000E0C6EB /* CodeGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		267B3AA5207F981900050100 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				267B3AA4207F981900050100 /* ContentSquare.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		267B3AA2207F981900050100 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3598D5121FD6E0C700603031 /* ContentSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1E8E9B1BA060D700CAA287 /* MasterViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewCell.swift; sourceTree = "<group>"; };
 		8A308E2119BDADB9007C7315 /* UserNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNotificationViewController.h; sourceTree = "<group>"; };
@@ -293,6 +310,7 @@
 				8A40F6B819CA528A005F34A3 /* Metal.framework in Frameworks */,
 				8A8D0CAF19C9A161009E3448 /* HealthKit.framework in Frameworks */,
 				8A8D0CAD19C9A129009E3448 /* HomeKit.framework in Frameworks */,
+				267B3AA3207F981900050100 /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +569,7 @@
 		8AA4B9E819A175F4006BC800 = {
 			isa = PBXGroup;
 			children = (
+				267B3AA2207F981900050100 /* ContentSquare.framework */,
 				8AE7B7EB19A1B8D700E0C6EB /* Resouces */,
 				8AA4BA2419A18E9B006BC800 /* libs */,
 				8AA4B9F319A175F4006BC800 /* iOS8Sampler */,
@@ -874,6 +893,7 @@
 				8AA4B9ED19A175F4006BC800 /* Sources */,
 				8AA4B9EE19A175F4006BC800 /* Frameworks */,
 				8AA4B9EF19A175F4006BC800 /* Resources */,
+				267B3AA5207F981900050100 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
