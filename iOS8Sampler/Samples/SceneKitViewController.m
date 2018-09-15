@@ -164,7 +164,7 @@
         [SCNTransaction begin];
         [SCNTransaction setAnimationDuration:2.5];
         
-        _spotLightNode.light.color = [SKColor colorWithWhite:1 alpha:1];
+        self->_spotLightNode.light.color = [SKColor colorWithWhite:1 alpha:1];
         self.childNode.geometry.firstMaterial.emission.intensity = 0.75;
         
         [SCNTransaction commit];
