@@ -73,14 +73,15 @@
 #pragma mark - IBAction
 
 - (IBAction)btnTapped:(id)sender {
-    
+    UIImage *image = self.imageView.image;
+
     [SVProgressHUD show];
     
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(queue, ^{
 
         // compute
-        CIImage *dataImage = [TTMHistogramHelper computeHistogramForImage:self.imageView.image count:64];
+        CIImage *dataImage = [TTMHistogramHelper computeHistogramForImage:image count:64];
         
         // generate
         UIImage *outImage = [TTMHistogramHelper generateHistogramImageFromDataImage:dataImage];
