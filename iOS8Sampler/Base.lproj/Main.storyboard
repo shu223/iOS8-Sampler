@@ -65,6 +65,7 @@
                                         <constraint firstItem="A5s-6a-m1S" firstAttribute="top" secondItem="QmC-6l-5XE" secondAttribute="bottom" constant="4" id="HsV-pS-Rx9"/>
                                         <constraint firstAttribute="trailing" secondItem="A5s-6a-m1S" secondAttribute="trailing" id="Msi-sx-oyJ"/>
                                         <constraint firstItem="A5s-6a-m1S" firstAttribute="leading" secondItem="QmC-6l-5XE" secondAttribute="leading" id="StH-26-ed2"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QmC-6l-5XE" secondAttribute="trailing" constant="20" symbolic="YES" id="Tq2-Nv-3Bk"/>
                                         <constraint firstAttribute="bottom" secondItem="A5s-6a-m1S" secondAttribute="bottom" constant="10" id="h4k-di-Nny"/>
                                         <constraint firstItem="QmC-6l-5XE" firstAttribute="leading" secondItem="d3P-M7-ByW" secondAttribute="leading" constant="15" id="ilp-Bq-prT"/>
                                     </constraints>
